@@ -29,10 +29,7 @@ export const data: Record<string, DeptData> = {
 		teachingFaculty: [
 			'Ms. Sonali Sherigar',
 			'Mr. Pranavkumar Bhadane',
-			'Mrs. Rashmi Dhake',
 			'Mrs. Ashwini Baviskar',
-			'Mrs. Ashwini Patil',
-			'Mrs. Vidya Ingle',
 			'Mrs. Samina Siddique'
 		],
 		teachingFacultyQualifications: ['M.Tech', 'M.E Computer', 'M.E Computer', 'B.E Computer', 'M.E Computer', 'M.E IT', 'B.E IT'],
@@ -79,7 +76,12 @@ export const data: Record<string, DeptData> = {
 			'Establish and enhance interaction with industries for training, internship and entrepreneurial activities.',
 			'Educate the students for effective communication, teamwork and leadership for their overall development.'
 		],
-		teachingFaculty: ['Mr. Nitin Kulkarni', 'Mr. Dinesh Patil', 'Ms. Cige Louis', 'Mr. Satish Eandole', 'Mr. Mahesh Vhanmane'],
+		teachingFaculty: [
+			'Mr. Nitin Kulkarni', 
+			'Mr. Dinesh Patil', 
+			'Ms. Cige Louis', 
+			'Mr. Satish Eandole',
+			 'Mr. Mahesh Vhanmane'],
 		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile'],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod']
 	},
