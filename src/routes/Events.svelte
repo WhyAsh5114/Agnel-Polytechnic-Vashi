@@ -32,7 +32,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+
 
 <div class="card lg:card-side bg-accent text-white max-h-80 shadow-xl max-w-2xl w-full">
 		<figure><img src="/events/zest.webp" alt="Zest 2023" /></figure>
@@ -44,4 +44,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+
