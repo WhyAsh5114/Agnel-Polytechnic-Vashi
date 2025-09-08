@@ -50,6 +50,12 @@
 		['Mr. Momin Musheer Anwar', 'Lecturer', ['Bachelors in Technology', 'Production'], '19/09/2016', '15 years']
 	];
 
+	let Artificial_Intelligence_Machine_Learning_teaching_staff = [
+		['Ms. Sonali Sherigar', 'Head of Department', ['Masters in Technology'], '24/6/1995', '32 years']
+		
+		
+	];
+
 	let humanities_department = [
 		['Mr. Venugopal Kurup', 'Lecturer', ['Masters in Science', 'Bachelors in Education'], '09/01/1992', '30 years'],
 		['Ms. Malini Pawnday', 'Lecturer', ['Masters in Science', 'Physics'], '16/07/1998', '25 years'],
@@ -60,6 +66,8 @@
 		['Ms. Purnima M. Barhate', 'Lecturer', ['Masters in Science', 'Bachelors in Education', 'Masters in Philosophy'], '20/07/2011', '13 years'],
 		['Ms. R.P. Snehalatha', 'Lecturer', ['Masters in Science', 'Bachelors in Education'], '06/04/2012', '10 years']
 	];
+
+
 </script>
 
 <h3 class="divider-heading pb-12 pt-6 px-2">Staff details</h3>
