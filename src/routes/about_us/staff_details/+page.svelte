@@ -24,13 +24,13 @@
 	];
 
 	let electronics_telecommunication_teaching_staff = [
-		['Mrs. Raji MP', 'Head of Department', ['Masters in Engineering', 'Electrical'], '06/06/1995', '27 years'],
-		['Mrs. Jewel Samantha', 'Training and Placement Officer', ['Masters in Engineering', 'Electronics'], '07/01/1997', '25 years'],
-		['Mrs. Suhasini David Sekhar', 'Lecturer', ['Masters in Technology', 'Electrical'], '06/01/1998', '24 years'],
-		['Mr. Umesh Mhapankar', 'Lecturer', ['Masters in Engineering', 'Electronics'], '12/01/2003', '19 years'],
-		['Mrs. Archana Wasule', 'Lecturer', ['Masters in Engineering', 'Electronics'], '14/12/2004', '18 years'],
-		['Ms. Varsha Meshram', 'Lecturer', ['Masters in Technology', 'Electronics'], '14/06/2010', '14 years'],
-		['Mr. Amol Suryavanshi', 'Lecturer', ['Masters in Engineering', 'Electronics'], '18/08/2011', '11 years'],
+		['Mrs. Raji MP', 'Head of Department', ['Masters in Engineering', 'Electrical'], '06/06/1995', '30 years'],
+		['Mrs. Jewel Samantha', 'Training and Placement Officer', ['Masters in Engineering', 'Electronics'], '07/01/1997', '28 years'],
+		['Mrs. Suhasini David Sekhar', 'Lecturer', ['Masters in Technology', 'Electrical'], '06/01/1998', '27 years'],
+		['Mr. Umesh Mhapankar', 'Lecturer', ['Masters in Engineering', 'Electronics'], '12/01/2003', '21 years'],
+		['Mrs. Archana Wasule', 'Lecturer', ['Masters in Engineering', 'Electronics'], '14/12/2004', '21 years'],
+		['Ms. Varsha Meshram', 'Lecturer', ['Masters in Technology', 'Electronics'], '14/06/2010', '17 years'],
+		['Mr. Amol Suryavanshi', 'Lecturer', ['Masters in Engineering', 'Electronics'], '18/08/2011', '14 years'],
 		['Mr. Mohd Janisar', 'Lecturer', ['Bachelors in Technology', 'IT'], '02/07/2025', '3 years']
 	];
 
@@ -99,13 +99,13 @@
 					<span class="badge badge-ghost badge-sm">Masters in Engineering</span>
 				</td>
 				<td>29/03/1989</td>
-				<td>31 years</td>
+				<td>36 years</td>
 			</tr>
 		</tbody>
 		<DepartmentTeachingStaff tableHeading="Civil Engineering Department - Teaching Staff" data={civil_engineering_teaching_staff} />
 		<DepartmentTeachingStaff tableHeading="Automobile Engineering Department - Teaching Staff" data={automobile_engineering_teaching_staff} />
 		<DepartmentTeachingStaff
-			tableHeading="Electronics Telecommunication Engineering Department - Teaching Staff"
+			tableHeading="Electronics and Computer Engineering Engineering Department - Teaching Staff"
 			data={electronics_telecommunication_teaching_staff}
 		/>
 		<DepartmentTeachingStaff tableHeading="Mechanical Engineering Department - Teaching Staff" data={mechanical_engineering_teaching_staff} />

@@ -64,7 +64,7 @@ export const data: Record<string, DeptData> = {
 	},
 	automobile_engineering: {
 		name: 'Automobile Engineering (AE)',
-		HOD: 'Mr. Nitin Kulkarni',
+		HOD: 'Mr. Nitin Kulkarni (HOD)',
 		intake: 60,
 		duration: 3,
 		about:
@@ -87,7 +87,7 @@ export const data: Record<string, DeptData> = {
 	},
 	civil_engineering: {
 		name: 'Civil Engineering (CE)',
-		HOD: 'Mr. Manvendra Sinha',
+		HOD: 'Mr. Manvendra Sinha (HOD)',
 		intake: 60,
 		duration: 3,
 		about:
@@ -125,7 +125,7 @@ export const data: Record<string, DeptData> = {
 	},
 	mechanical_engineering: {
 		name: 'Mechanical Engineering (ME)',
-		HOD: 'Mrs. Beenu Johnkutty',
+		HOD: 'Mrs. Beenu Johnkutty (HOD)',
 		intake: 120,
 		duration: 3,
 		about:
