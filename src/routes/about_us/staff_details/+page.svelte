@@ -50,7 +50,7 @@
 
 	let Artificial_Intelligence_Machine_Learning_teaching_staff = [
 		['Ms. Sonali Sherigar', 'Head of Department', ['Masters in Technology'], '24/6/1995', '32 years'],
-		['Mr. Pranavkumar Bhadane', 'Lecturer', ['M.E Computer '], '17/09/2025', '9 years'],
+		['Mr. Pranavkumar Bhadane', 'Lecturer', ['M.E Computer '], '17/09/2022', '0 years'],
 		['Mrs. Ashwini Baviskar', 'Lecturer', ['B.E IT'], '01/02/2023', '3 years'], 
 		['Mrs. Samina Siddique', 'Lecturer', ['M.Tech Computer (Pursuing)'], '01/09/2023', '11 years'],
 		['Ms. Kirti Karande', 'Lecturer', ['M.E Computer (Pursuing)'], '15/7/2024', '10 years'],
@@ -69,7 +69,7 @@
 		['Ms. Deepti Kalantri', 'Lecturer', ['Masters in Science', 'Physics'], '14/07/2008', '14 years'],
 		['Ms. Purnima M. Barhate', 'Lecturer', ['Masters in Science', 'Bachelors in Education', 'Masters in Philosophy'], '20/07/2011', '13 years'],
 		['Ms. R.P. Snehalatha', 'Lecturer', ['Masters in Science', 'Bachelors in Education'], '06/04/2012', '10 years'],
-		['Susan Sabu Manimala', 'Lecturer', ['BE in EXTC, MA in English Literature'], '01/06/2024', '5 years']
+		['Ms. Susan Sabu Manimala', 'Lecturer', ['BE in EXTC, MA in English Literature'], '01/06/2024', '5 years']
 	];
    
 

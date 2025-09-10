@@ -33,9 +33,10 @@ export const data: Record<string, DeptData> = {
 			'Mrs. Samina Siddique',
 			'Ms. Kirti Karande', 
 			'Ms. Namrata Thakur',
-			'Ms. Monali Chandwadkar'
+			'Ms. Monali Chandwadkar',
+			'Ms. Susan Sabu Manimala'
 		],
-		teachingFacultyQualifications: ['M.Tech', 'M.E Computer', 'B.E IT', 'M.Tech Computer (Pursuing)', 'M.E Computer (Pursuing)', 'M.E Computer (Pursuing)', 'B.E IT'],
+		teachingFacultyQualifications: ['M.Tech', 'M.E Computer', 'B.E IT', 'M.Tech Computer (Pursuing)', 'M.E Computer (Pursuing)', 'M.E Computer (Pursuing)', 'B.E IT', 'MA in English Literature'],
 		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq']
 	},
 	electronics_and_computer_engineering: {
@@ -60,9 +61,12 @@ export const data: Record<string, DeptData> = {
 			'Mrs. Archana Wasule',
 			'Ms. Varsha Meshram',
 			'Mr. Amol Suryavanshi',
-			'Mr. Mohd Janisar'
+			'Mr. Mohd Janisar',
+			'Ms. Malini Pawnday',
+			'Ms. R.P. Snehalatha'
+
 		],
-		teachingFacultyQualifications: ['M.E Electronics', 'M.E', 'M.Tech', 'M.E', 'M.E', 'M.Tech', 'M.Tech', 'M.Tech Computer (Pursuing)'],
+		teachingFacultyQualifications: ['M.E Electronics', 'M.E', 'M.Tech', 'M.E', 'M.E', 'M.Tech', 'M.Tech', 'M.Tech Computer (Pursuing)','M.Sc in Physics', 'M.Sc in Maths'],
 		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge']
 	},
 	automobile_engineering: {
@@ -84,8 +88,11 @@ export const data: Record<string, DeptData> = {
 			'Mr. Dinesh Patil', 
 			'Ms. Cige Louis', 
 			'Mr. Satish Eandole',
-			 'Mr. Mahesh Vhanmane'],
-		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile'],
+			'Mr. Mahesh Vhanmane',
+			'Ms. Deepti Kalantri',
+		    'Ms. Shalvi Bahadur'],
+			 
+		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','M.Sc in Physics','M.Sc in Maths, Mphil' ],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod']
 	},
 	civil_engineering: {
@@ -111,7 +118,9 @@ export const data: Record<string, DeptData> = {
 			'Ms. Papiya Bala',
 			'Mr. Vishal Dalvi',
 			'Mr. Lewis Anthony',
-			'Ms. Ruchira Shinde'
+			'Ms. Ruchira Shinde',
+			'Ms. Roopa Shetty',
+			 'Mr. Upendra Rai'
 		],
 		teachingFacultyQualifications: [
 			'M.Tech Construction Management',
@@ -122,7 +131,9 @@ export const data: Record<string, DeptData> = {
 			'M.E Environmental',
 			'B.E Civil',
 			'M.Tech Strucutual',
-			'B.E Civil'
+			'B.E Civil',
+			'M.A in English',
+			'M.Sc in Chemistry'
 		],
 		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi']
 	},
@@ -152,7 +163,9 @@ export const data: Record<string, DeptData> = {
 			'Mr. Chetan Baviskar',
 			'Mr. Premkumar Joshi',
 			'Mr. Momin Musheer Anwar',
-			'Ms. Suvarchala M.'
+			'Ms. Suvarchala M.',
+			'Mr. Venugopal Kurup',
+			'Ms. Purnima M. Barhate'
 		],
 		teachingFacultyQualifications: [
 			'M.Tech Machine Design',
@@ -167,7 +180,9 @@ export const data: Record<string, DeptData> = {
 			'M.E Manufacturing System',
 			'M.Tech Machine Design',
 			'M.E Manufacturing System',
-			'B.Tech Production'
+			'B.Tech Production',
+			'M.Sc in Maths',
+			'M.Sc in Chemistry'
 		],
 		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh']
 	}
