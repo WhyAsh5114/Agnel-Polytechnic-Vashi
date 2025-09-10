@@ -101,7 +101,7 @@
 		</tbody>
 		<tbody>
   <tr>
-    <td> Select Sceme as "K" scheme and Course as per your requirement</td>
+    <td> On MSBTE Portal Select Sceme as "K" scheme and Course as per your requirement</td>
   </tr>
 </tbody>
 	</table>
