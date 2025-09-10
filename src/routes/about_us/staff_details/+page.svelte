@@ -54,7 +54,7 @@
   ['Ms. Samina Ahsan Siddiquie', 'Lecturer', ['M.Tech pursuing in AI '], '01/09/2023', '11 years'],
   ['Ms. Kirti Ramchandra Karande', 'Lecturer', ['M.E Computer (Pursuing)'], '15/7/2024', '10 years'],
   ['Ms. Namrata Swapnil Thakur ', 'Lecturer', ['M.E Computer (Pursuing)'], '17/09/2025', '9 years'],
-  ['Ms. Monali Shrikant Chandwadkar', 'Lecturer',[ 'B.E Computer'], '03/03/2025', '8 years']
+  ['Ms. Monali Chandwadkar', 'Lecturer',[ 'B.E Computer'], '03/03/2025', '8 years']
 ];
 
 
