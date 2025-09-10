@@ -113,6 +113,7 @@
 			data={electronics_telecommunication_teaching_staff}
 		/>
 		<DepartmentTeachingStaff tableHeading="Mechanical Engineering Department - Teaching Staff" data={mechanical_engineering_teaching_staff} />
+		<DepartmentTeachingStaff tableHeading="Artificial Intelligence & Machine Learning Department - Teaching Staff" data={Artificial_Intelligence_Machine_Learning_teaching_staff} />
 		<DepartmentTeachingStaff tableHeading="Humanities Department - Teaching Staff" data={humanities_department} />
 	</table>
 </div>
