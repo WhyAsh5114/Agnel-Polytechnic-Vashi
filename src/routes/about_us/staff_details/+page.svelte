@@ -50,7 +50,7 @@
 
 	let Artificial_Intelligence_Machine_Learning_teaching_staff = [
   ['Ms. Sonali Sherigar', 'Head of Department', ['Masters in Technology'], '24/6/1995', '32 years'],
-  ['Ms. Ashwini Chetan Baviskar', 'Lecturer', ['B.E IT'], '01/02/2023', '3 years'], // <-- Fixed here
+  ['Ms. Ashwini Chetan Baviskar', 'Lecturer', ['B.E IT'], '01/02/2023', '3 years'], 
   ['Ms. Samina Ahsan Siddiquie', 'Lecturer', ['M.Tech pursuing in AI '], '01/09/2023', '11 years'],
   ['Ms. Kirti Ramchandra Karande', 'Lecturer', ['M.E Computer (Pursuing)'], '15/7/2024', '10 years'],
   ['Ms. Namrata Swapnil Thakur ', 'Lecturer', ['M.E Computer (Pursuing)'], '17/09/2025', '9 years'],
@@ -70,7 +70,7 @@
 		['Ms. R.P. Snehalatha', 'Lecturer', ['Masters in Science', 'Bachelors in Education'], '06/04/2012', '10 years'],
 		['Susan Sabu Manimala', 'Lecturer', ['BE in EXTC, MA in English Literature'], '01/06/2024', '5 years']
 	];
-
+   
 
 </script>
 
