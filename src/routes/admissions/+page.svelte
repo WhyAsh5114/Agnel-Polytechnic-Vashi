@@ -1,6 +1,6 @@
 <div class="flex flex-col align-center justify-center p-10 gap-20">
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
-		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Admissions Procedure</h1>
+		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Admission Procedure</h1>
 		<a href="/FeeChart2025-26.pdf" download class="btn btn-primary">Download Fee Chart</a>
 		<p class="text-lg">
 			For Admissions to CAP Seats as well as Institutional Quota, it is compulsory for all candidates to purchase an application kit and submit the
@@ -9,14 +9,14 @@
 		</p>
 	</div>
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
-		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Centralized Admissions Process (CAP)</h1>
+		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Centralized Admission Process (CAP)</h1>
 		<p>
 			Centralized Admissions Process- (1) The Unaided Private Professional Education Institution shall admit Candidates through the Centralised
-			Admissions Process as per the rules. The stages of CAP shall be as stated below,-
+			Admissions Process as per the rules of Directorate of Technical Education, Maharashtra State(DTE) . The stages of CAP shall be as stated below,-
 		</p>
 		<ul class="list-disc">
 			<li>Display or publishing of Information Brochure by the Competent Authority.</li>
-			<li>Filling Online Application Form by Candidate for participation in the Centralised Admissions Process.</li>
+			<li>Filling Online Application Form by Candidate for participation in the Centralised Admission Process.</li>
 			<li>Confirmation of Online Application Form and Document Verification at Facilitation Centre by the Candidate in person.</li>
 			<li>Display or publishing of Provisional merit lists, Submission of grievances, if any, and Display or publishing of Final Merit Lists.</li>
 			<li>Display of available Categorywise Seats (Seat Matrix) for CAP Rounds I, II, and III.</li>
@@ -61,7 +61,7 @@
 		</ul>
 	</div>
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
-		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Admissions in Institutional Quota</h1>
+		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Admissions under Institutional Quota</h1>
 		<p>
 			The Institution can admit eligible candidates against 20% of sanctioned intake. Aspiring candidates can apply to the Principal for admission at
 			the Institute Level.
@@ -71,7 +71,7 @@
 		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Institute Level Round</h1>
 		<p>
 			If the seats remain vacant after all CAP rounds, the said seats will be filled in by the Institution through the Institute Level round on the
-			basis of the Intense merit of the candidates applying for the same.
+			basis of the Inter se merit of the candidates applying for the same.
 		</p>
 	</div>
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">

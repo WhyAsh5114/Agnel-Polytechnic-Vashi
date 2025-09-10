@@ -9,26 +9,25 @@
 		['Ms. Seema Kshirsagar', 'Lecturer', ['Masters in Technology', 'Environmental Engineering'], '05/01/2008', '18 years'],
 		['Ms. Papiya Bala', 'Lecturer', ['Masters in Engineering', 'Environmental Engineering'], '17/6/2010', '22 years'],
 		['Mr. Vishal Dalvi', 'Lecturer', ['Bachelors in Engineering', 'Civil'], '14/06/2012', '12 years'],
-		['Mr. Lewis Anthony', 'Lecturer', ['Masters in Technology', 'Structural Engineering'], '10/12/2012', '21 years'],
-		['Ms. Ruchira Shinde', 'Lecturer', ['Bachelors in Engineering', 'Civil'], '10/12/2012', '11 years']
+		['Mr. Lewis Anthony', 'Lecturer', ['Masters in Technology', 'Structural Engineering'], '10/12/2012', '21 years']
+		
 	];
 
 	let automobile_engineering_teaching_staff = [
 		['Mr. Nitin Kulkarni', 'Head of Department', ['Masters in Engineering', 'Mechanical'], '10/07/2006', '26 years'],
 		['Mr. Dinesh Patil', 'Lecturer', ['Masters in Technology', 'Mechanical'], '04/06/2007', '17 years'],
-		['Ms. Sonal Kapadia', 'Lecturer', ['Masters in Technology', 'Mechanical'], '04/07/2008', '16 years'],
 		['Ms. Cige Louis', 'Lecturer', ['Bachelors in Engineering', 'Production'], '03/01/2011', '13 years'],
 		['Mr. Satish Eandole', 'Lecturer', ['Bachelors in Engineering', 'Mechanical'], '09/01/2012', '14 years'],
-		['Mr. Syed Mohammed Arif', 'Lecturer', ['Masters in Engineering'], '03/07/2019', '11 years'],
-		['Mr. Mahesh Vhanmane', 'Lecturer', ['Bachelors in Engineering', 'Automobile'], '05/07/2019', '10 years']
+		['Mr. Mahesh Vhanmane', 'Lecturer', ['Bachelors in Engineering', 'Automobile'], '05/07/2019', '10 years'],
+		['Ms. Ruchira Shinde', 'Lecturer', ['Bachelors in Engineering', 'Civil'], '10/12/2012', '11 years']
 	];
 
 	let electronics_telecommunication_teaching_staff = [
 		['Mrs. Raji MP', 'Head of Department', ['Masters in Engineering', 'Electrical'], '06/06/1995', '30 years'],
-		['Mrs. Jewel Samantha', 'Training and Placement Officer', ['Masters in Engineering', 'Electronics'], '07/01/1997', '28 years'],
+		['Mrs. Jewel Samanta', 'Training and Placement Officer', ['M.Tech', 'Electronics'], '07/01/1997', '28 years'],
 		['Mrs. Suhasini David Sekhar', 'Lecturer', ['Masters in Technology', 'Electrical'], '06/01/1998', '27 years'],
 		['Mr. Umesh Mhapankar', 'Lecturer', ['Masters in Engineering', 'Electronics'], '12/01/2003', '21 years'],
-		['Mrs. Archana Wasule', 'Lecturer', ['Masters in Engineering', 'Electronics'], '14/12/2004', '21 years'],
+		['Mrs. Archana Wasule', 'Lecturer', ['M.Tech', 'Electronics'], '14/12/2004', '21 years'],
 		['Ms. Varsha Meshram', 'Lecturer', ['Masters in Technology', 'Electronics'], '14/06/2010', '17 years'],
 		['Mr. Amol Suryavanshi', 'Lecturer', ['Masters in Engineering', 'Electronics'], '18/08/2011', '14 years'],
 		['Mr. Mohd Janisar', 'Lecturer', ['M.Tech  (Pursuing)', 'Computer Engineering'], '02/07/2025', '3 years']
@@ -39,7 +38,6 @@
 		['Mr. Yogesh Vishwakarma', 'Lecturer', ['Masters in Engineering', 'Automobile'], '07/02/2003', '21 years'],
 		['Ms. Pratima Kokate', 'Lecturer', ['Masters in Technology', 'Machine Design'], '03/07/2007', '19 years'],
 		['Mr. Ravindra Dhawale', 'Lecturer', ['Masters in Technology', 'Production'], '01/12/2007', '22 years'],
-		['Mr. Uday Gudsoorkar', 'Workshop Support', ['Masters in Engineering', 'Manufacturing System'], '17/12/2007', '30 years'],
 		['Ms. Suvarchala M.', 'Lecturer', ['Masters in Technology', 'Production'], '15/01/2008', '16 years'],
 		['Mr. Vivek Fegade', 'Lecturer', ['Masters in Engineering', 'CAD', 'CAM'], '01/02/2009', '17 years'],
 		['Mr. Milind Shrirao', 'Lecturer', ['Bachelors in Engineering', 'Mechanical'], '27/07/2009', '15 years'],
@@ -59,12 +57,13 @@
 	let humanities_department = [
 		['Mr. Venugopal Kurup', 'Lecturer', ['Masters in Science', 'Bachelors in Education'], '09/01/1992', '30 years'],
 		['Ms. Malini Pawnday', 'Lecturer', ['Masters in Science', 'Physics'], '16/07/1998', '25 years'],
-		['Ms. Roopa Shetty', 'Lecturer', ['Masters in Arts', 'English'], '18/06/1996', '26 years'],
+		['Ms. Roopa Shetty', 'Lecturer', ['Masters in Arts', 'English'], '18/06/1996', '29 years'],
 		['Mr. Upendra Rai', 'Lecturer', ['Masters in Science', 'Chemistry', 'Bachelors in Education'], '30/09/2003', '27 years'],
 		['Ms. Shalvi Bahadur', 'Lecturer', ['Masters in Science', 'Maths', 'Masters in Philosophy'], '01/07/2008', '14 years'],
 		['Ms. Deepti Kalantri', 'Lecturer', ['Masters in Science', 'Physics'], '14/07/2008', '14 years'],
 		['Ms. Purnima M. Barhate', 'Lecturer', ['Masters in Science', 'Bachelors in Education', 'Masters in Philosophy'], '20/07/2011', '13 years'],
-		['Ms. R.P. Snehalatha', 'Lecturer', ['Masters in Science', 'Bachelors in Education'], '06/04/2012', '10 years']
+		['Ms. R.P. Snehalatha', 'Lecturer', ['Masters in Science', 'Bachelors in Education'], '06/04/2012', '10 years'],
+		['Susan Sabu Manimala', 'Lecturer', ['BE in EXTC, MA in English Literature'], '01/06/2024', '5 years']
 	];
 
 

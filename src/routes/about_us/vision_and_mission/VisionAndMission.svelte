@@ -4,7 +4,7 @@
 		<div class="card-body">
 			<h2 class="card-title mx-auto text-4xl font-bold">Vision</h2>
 			<p class="text-lg text-justify">
-				To evolve and flourish as a progressive center for modern technical education, stirring in every student's creativity, leading to
+				To evolve and flourish as a progressive center for modern technical education, stirring in every student creativity, leading to
 				entrepreneurship through holistic development, nurtured by the strength and legitimate pride of Indian values and the spirit of true service.
 			</p>
 		</div>

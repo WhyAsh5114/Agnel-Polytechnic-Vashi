@@ -5,7 +5,7 @@
 		['Representative Of The Police Dept.', 'Sr. Police Inspector', 'Mr. Sanjay Dhumal', '27820468'],
 		['Department Representative', 'HOD Mechanical Engg.', 'Mrs. Beenu Johnkutty', '9869441160'],
 		['-Do-', 'HOD Civil Engg.', 'Mr. Manvendra Sinha', '9819763770'],
-		['-Do-', 'HOD Electronics & Telecommunication', 'Mrs. Raji MP', '9867803820'],
+		['-Do-', 'HOD Electronics & Computer Engineering', 'Mrs. Raji MP', '9867803820'],
 		['-Do-', 'HOD Humanities', 'Mr. Venu Gopala Kurup', '9869353658'],
 		['-Do-', 'I/c HOD Automobile Engg.', 'Mr. Nitin Kulkarni', '7021337916'],
 		["Teachers' Representative", 'Lecturer', 'Mr. Lewis A.', '9004897775'],
@@ -14,7 +14,7 @@
 		["Parents' Representative (Ladies)", 'Parent (TE3I)', 'Dr. Kharade', '9594649029'],
 		["Students' Representative", 'Student ( AE-5 )', 'Mr. Jayendra RavindraSankpal', '7400338773'],
 		["Students' Representative", 'Student (ME-3)', 'Mr. Sangam Yadav', '9372607856'],
-		["Students' Representative", 'Student (EJ-5)', 'Ms. Swarali Kharche', '9623164810'],
+		["Students' Representative", 'Student (TE-3)', 'Ms. Rosemia James', '9496156934'],
 		["Students' Representative", 'Student (CE-3)', 'Mr. Ritesh Ambedkar', '9324321515']
 	];
 
