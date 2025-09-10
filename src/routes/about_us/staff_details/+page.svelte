@@ -24,7 +24,7 @@
 
 	let electronics_telecommunication_teaching_staff = [
 		['Mrs. Raji MP', 'Head of Department', ['Masters in Engineering', 'Electrical'], '06/06/1995', '30 years'],
-		['Mrs. Jewel Samanta', 'Training and Placement Officer', ['M.Tech', 'Electronics'], '07/01/1997', '28 years'],
+		['Mrs. Jewel Samantha', 'Training and Placement Officer', ['M.Tech', 'Electronics'], '07/01/1997', '28 years'],
 		['Mrs. Suhasini David Sekhar', 'Lecturer', ['Masters in Technology', 'Electrical'], '06/01/1998', '27 years'],
 		['Mr. Umesh Mhapankar', 'Lecturer', ['Masters in Engineering', 'Electronics'], '12/01/2003', '21 years'],
 		['Mrs. Archana Wasule', 'Lecturer', ['M.Tech', 'Electronics'], '14/12/2004', '21 years'],
