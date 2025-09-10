@@ -50,10 +50,10 @@
 
 	let Artificial_Intelligence_Machine_Learning_teaching_staff = [
   ['Ms. Sonali Sherigar', 'Head of Department', ['Masters in Technology'], '24/6/1995', '32 years'],
-  ['Ms. Ashwini Baviskar', 'Lecturer', ['B.E IT'], '01/02/2023', '3 years'], 
-  ['Ms. Samina Ahsan Siddiquie', 'Lecturer', ['M.Tech pursuing in AI '], '01/09/2023', '11 years'],
+  ['Mrs. Ashwini Baviskar', 'Lecturer', ['B.E IT'], '01/02/2023', '3 years'], 
+  ['Ms. Samina Siddiquie', 'Lecturer', ['M.Tech pursuing in AI '], '01/09/2023', '11 years'],
   ['Ms. Kirti Karande', 'Lecturer', ['M.E Computer (Pursuing)'], '15/7/2024', '10 years'],
-  ['Ms. Namrata Thakur ', 'Lecturer', ['M.E Computer (Pursuing)'], '17/09/2025', '9 years'],
+  ['Ms. Namrata Thakur', 'Lecturer', ['M.E Computer (Pursuing)'], '17/09/2025', '9 years'],
   ['Ms. Monali Chandwadkar', 'Lecturer',[ 'B.E Computer'], '03/03/2025', '8 years']
 ];
 
