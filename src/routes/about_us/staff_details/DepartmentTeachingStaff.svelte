@@ -21,7 +21,7 @@
 					<div class="font-bold">{member[0]}</div>
 				</div>
 			</td>
-			<td>
+			<td> 
 				{member[1]}
 				<br />
 				<div class="flex flex-wrap gap-1">
