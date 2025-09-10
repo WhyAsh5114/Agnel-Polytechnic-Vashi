@@ -31,7 +31,7 @@
 		['Mrs. Archana Wasule', 'Lecturer', ['Masters in Engineering', 'Electronics'], '14/12/2004', '21 years'],
 		['Ms. Varsha Meshram', 'Lecturer', ['Masters in Technology', 'Electronics'], '14/06/2010', '17 years'],
 		['Mr. Amol Suryavanshi', 'Lecturer', ['Masters in Engineering', 'Electronics'], '18/08/2011', '14 years'],
-		['Mr. Mohd Janisar', 'Lecturer', ['Bachelors in Technology', 'IT'], '02/07/2025', '3 years']
+		['Mr. Mohd Janisar', 'Lecturer', ['M.Tech  (Pursuing)', 'Computer Engineering'], '02/07/2025', '3 years']
 	];
 
 	let mechanical_engineering_teaching_staff = [
