@@ -6,7 +6,7 @@
 		['Mrs. Suhasini David Sekhar', 'TE', 'Member', '9819321626'],
 		['Mr. Nitin Kulkarni', 'ME', 'Member', '9969338603'],
 		['Mr. Satish Eandole', 'AE', '	Member', '9834833416'],
-		['Ms. Roopali Hedge', '', 'Counsellor', '9619325880']
+		['Ms. Roopali Hegde', '', 'Counsellor', '9619325880']
 	];
 </script>
 

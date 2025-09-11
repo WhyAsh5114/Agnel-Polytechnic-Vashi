@@ -82,6 +82,7 @@
 			<tr>
 				<th>Name of the staff</th>
 				<th>Designation</th>
+				<th>Appointment Type</th>
 				<th>Joining date</th>
 				<th>Experience</th>
 			</tr>

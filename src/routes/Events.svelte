@@ -1,6 +1,7 @@
 <h2 class="text-center text-4xl font-bold mb-12 mt-16 divider max-w-7xl mx-auto">Events</h2>
 <div class="grid w-full max-w-7xl mx-auto place-items-center lg:grid-cols-2 gap-5">
 	<div class="card lg:card-side bg-accent text-white max-h-80 shadow-xl max-w-2xl w-full">
+		
 		<figure><img src="/events/resonance.webp" alt="Resonance 2023" /></figure>
 		<div class="card-body lg:basis-5/12 shrink-0">
 			<h2 class="card-title text-xl lg:text-3xl">Resonance 2023</h2>
