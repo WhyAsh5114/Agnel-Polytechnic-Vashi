@@ -104,6 +104,7 @@
 					<br />
 					<span class="badge badge-ghost badge-sm">Masters in Engineering</span>
 				</td>
+				<td>--</td>
 				<td>29/03/1989</td>
 				<td>36 years</td>
 			</tr>
