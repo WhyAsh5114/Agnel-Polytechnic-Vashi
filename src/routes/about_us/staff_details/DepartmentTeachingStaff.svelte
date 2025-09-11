@@ -5,7 +5,7 @@
 
 <thead>
 	<tr>
-		<th colspan="4">{tableHeading}</th>
+		<th colspan="5">{tableHeading}</th>
 	</tr>
 </thead>
 <tbody>
