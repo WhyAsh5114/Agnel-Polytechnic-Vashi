@@ -8,7 +8,7 @@
 		['Ms. Amarpreet Kaur', 'Lecturer', ['Masters in Technology', 'Construction Management'],'Regular', '01/08/2007', '19 years'],
 		['Ms. Seema Kshirsagar', 'Lecturer', ['Masters in Technology', 'Environmental Engineering'], 'Regular','05/01/2008', '18 years'],
 		['Ms. Papiya Bala', 'Lecturer', ['Masters in Engineering', 'Environmental Engineering'],'Regular', '17/6/2010', '22 years'],
-		['Mr. Vishal Dalvi', 'Lecturer', ['Bachelors in Engineering', 'Civil'], '14/06/2012','Regular', '12 years'],
+		['Mr. Vishal Dalvi', 'Lecturer', ['Bachelors in Engineering', 'Civil'], 'Regular','14/06/2012', '12 years'],
 		['Mr. Lewis Anthony', 'Lecturer', ['Masters in Technology', 'Structural Engineering'],'Regular', '10/12/2012', '21 years']
 		
 	];
@@ -18,7 +18,7 @@
 		['Mr. Dinesh Patil', 'Lecturer', ['Masters in Technology', 'Mechanical'], 'Regular','04/06/2007', '17 years'],
 		['Ms. Cige Louis', 'Lecturer', ['Bachelors in Engineering', 'Production'], 'Regular','03/01/2011', '13 years'],
 		['Mr. Satish Eandole', 'Lecturer', ['Bachelors in Engineering', 'Mechanical'],'Regular', '09/01/2012', '14 years'],
-		['Mr. Mahesh Vhanmane', 'Lecturer', ['Bachelors in Engineering', 'Automobile'],'Regular', 'AdHoc', '05/07/2019', '10 years'],
+		['Mr. Mahesh Vhanmane', 'Lecturer', ['Bachelors in Engineering', 'Automobile'], 'AdHoc', '05/07/2019', '10 years'],
 		['Ms. Ruchira Shinde', 'Lecturer', ['Bachelors in Engineering', 'Civil'],'Regular', '10/12/2012', '11 years']
 	];
 
@@ -51,7 +51,7 @@
 	let Artificial_Intelligence_Machine_Learning_teaching_staff = [
 		['Ms. Sonali Sherigar', 'Head of Department', ['Masters in Technology'], '--','24/6/1995', '32 years'],
 		['Mr. Pranavkumar Bhadane', 'Lecturer', ['M.E Computer '],'Regular', '14/02/2022', '12 years'],
-		['Mrs. Ashwini Baviskar', 'Lecturer', ['B.E IT'], '01/02/2023', 'AdHoc', '3 years'], 
+		['Mrs. Ashwini Baviskar', 'Lecturer', ['B.E IT'],'AdHoc', '01/02/2023',  '3 years'], 
 		['Mrs. Samina Siddique', 'Lecturer', ['M.Tech Computer (Pursuing)'],'AdHoc', '01/09/2023', '11 years'],
 		['Ms. Kirti Karande', 'Lecturer', ['M.E Computer (Pursuing)'],'AdHoc', '15/7/2024', '10 years'],
 		['Ms. Namrata Thakur', 'Lecturer', ['M.E Computer (Pursuing)'],'AdHoc', '17/09/2025', '9 years'],
