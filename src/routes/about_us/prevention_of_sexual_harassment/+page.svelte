@@ -7,7 +7,7 @@
 		['Mrs. Swapnali Thottam', 'Member', '9969895227'],
 		['Mr. Avinash Jage', 'Member', '704596720'],
 		['Dr. Dipti Joshi', 'Member from NGO Sreemukti Sanghatana', '8369765171'],
-		['Ms. Swarali Kharche', 'Student (EJ-5I)', '9623134810'],
+		['Ms. Rosemia James', 'Student (TE-3k)', '9496156934'],
 		['Mr. Varun P.', '	Student (ME-3I)', '9326858981'],
 		['Ms. Anjali Survade', 'Student (CE-5I)', '	8108158885']
 	];
