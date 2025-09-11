@@ -32,6 +32,7 @@
 			</td>
 			<td class="capitalize">{member[3]}</td>
 			<td>{member[4]}</td>
+			<td>{member[5]}</td>
 		</tr>
 	{/each}
 </tbody>
