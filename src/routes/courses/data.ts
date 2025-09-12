@@ -180,7 +180,7 @@ export const data: Record<string, DeptData> = {
 			'M.E Manufacturing System',
 			'B.Tech Production ',
 			'M.Tech Production ',
-			'x5',
+			'x55',
 			'x6'
 		],
 		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh']
