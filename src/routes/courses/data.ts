@@ -66,7 +66,7 @@ export const data: Record<string, DeptData> = {
 			'Ms. R.P. Snehalatha'
 
 		],
-		teachingFacultyQualifications: ['M.E Electronics', 'M.E', 'M.Tech', 'M.E', 'M.E', 'M.Tech', 'M.Tech', 'M.Tech Computer (Pursuing)','M. Sc. in Physics', 'M. Sc. In Maths'],
+		teachingFacultyQualifications: ['M.E Electronics', 'M.E', 'M.Tech', 'M.E', 'M.E', 'M.Tech', 'M.Tech', 'M.Tech Computer (Pursuing)','x', 'y'],
 		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge']
 	},
 	automobile_engineering: {
@@ -92,7 +92,7 @@ export const data: Record<string, DeptData> = {
 			'Ms. Deepti Kalantri',
 		    'Ms. Shalvi Bahadur'],
 			 
-		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','M.Sc in Physics','M.Sc in Maths, Mphil' ],
+		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','x1','z' ],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod']
 	},
 	civil_engineering: {
@@ -132,8 +132,8 @@ export const data: Record<string, DeptData> = {
 			'B.E Civil',
 			'M.Tech Strucutual',
 			'B.E Civil',
-			'M.A in English',
-			'M.Sc in Chemistry'
+			'x3',
+			'x4'
 		],
 		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi']
 	},
@@ -180,8 +180,8 @@ export const data: Record<string, DeptData> = {
 			'M.E Manufacturing System',
 			'B.Tech Production ',
 			'M.Tech Production ',
-			'B.Tech Production',
-			'M.Sc in Chemistry'
+			'x5',
+			'x6'
 		],
 		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh']
 	}
