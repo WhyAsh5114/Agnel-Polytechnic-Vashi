@@ -136,11 +136,16 @@
         </li>
       </ul>
     </li>
-
-	 <!-- 🔽 Audit Statement with nested dropdown -->
+ <!-- 🔽 Audit Statement with nested dropdown -->
         <li class="dropdown dropdown-hover">
-          <button tabindex="0">
-			<li><a href="/pdfs/ARP 23-24.pdf" download>Audit 2024 </a> </li></button>
+          <button tabindex="0">Key Highlights & Regulationst</button>
+          <ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
+            <li><a href="/pdfs/ARP 23-24.pdf" download>Key Highlights & Regulations</a></li>
+          </ul>
+        </li>
+      </ul>
+   
+	
          
 
     <!-- COURSES Dropdown -->
