@@ -4,7 +4,7 @@
 		['Mrs. Jewel Samantha', 'Chairman'],
 		['Mrs. Roopa Shetty', 'Member'],
 		['Ms. Seema Kshirsagar', 'Member'],
-		['Mrs. Malini Pawande', 'Member'],
+		['Ms. Malini Pawnday', 'Member'],
 		['Ms. Amarpreet Kaur', 'Member'],
 		['Mr. Nitin Kulkarni', 'Member'],
 		['Mr. Upendra Rai', 'Member'],
