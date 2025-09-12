@@ -64,6 +64,7 @@
 							<li><a href="/about_us/prevention_of_sexual_harassment">Prevention of sexual harassment</a></li>
 							<li><a href="/about_us/students_mentoring">Students mentoring</a></li>
 							<li><a href="/about_us/institution_innovation_council">Institution innovation council</a></li>
+							<li><a href="/about_us/Audit_Statement">Audit Statement</a></li>
 						</ul>
 					</details>
 				</li>
@@ -121,6 +122,7 @@
 						<a href="/about_us/prevention_of_sexual_harassment">Prevention of sexual harassment</a>
 						<a href="/about_us/students_mentoring">Students mentoring</a>
 						<a href="/about_us/institution_innovation_council">Institution innovation council</a>
+						<a href="/about_us/Audit_Statement">Audit Statement</a>
 					</li>
 				</ul>
 			</li>
