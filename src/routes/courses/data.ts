@@ -90,9 +90,10 @@ export const data: Record<string, DeptData> = {
 			'Mr. Satish Eandole',
 			'Mr. Mahesh Vhanmane',
 			'Ms. Deepti Kalantri',
+			'Ms. Ruchira Shinde',
 		    'Ms. Shalvi Bahadur'],
 			 
-		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','M. Sc. Physics','M. Sc. Maths M. Phil. ' ],
+		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','M. Sc. Physics','B.E Civil','M. Sc. Maths M. Phil. ' ],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod']
 	},
 	civil_engineering: {
@@ -118,7 +119,6 @@ export const data: Record<string, DeptData> = {
 			'Ms. Papiya Bala',
 			'Mr. Vishal Dalvi',
 			'Mr. Lewis Anthony',
-			'Ms. Ruchira Shinde',
 			'Ms. Roopa Shetty',
 			 'Mr. Upendra Rai'
 		],
@@ -131,7 +131,6 @@ export const data: Record<string, DeptData> = {
 			'M.E Environmental',
 			'B.E Civil',
 			'M.Tech Strucutual',
-			'B.E Civil',
 			'M. A. English',
 			'M. Sc. Chemistry'
 		],
