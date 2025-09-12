@@ -2,14 +2,14 @@
 	import DepartmentTeachingStaff from './DepartmentTeachingStaff.svelte';
 
 	let civil_engineering_teaching_staff = [
-		['Mr. Manvendra Sinha', 'Head of Department', ['Masters in Technology', 'Construction Management'], '--','24/6/1995', '32 years'],
-		['Mr. Shashikant Sawant', 'Lecturer', ['Masters in Technology', 'Environmental Engineering'], 'Regular','25/11/2005', '22 years'],
-		['Ms. Nirmala Mascarenhas', 'Lecturer', ['Masters in Technology', 'Structural Engineering'],'Regular', '11/12/2006', '21 years'],
-		['Ms. Amarpreet Kaur', 'Lecturer', ['Masters in Technology', 'Construction Management'],'Regular', '01/08/2007', '19 years'],
-		['Ms. Seema Kshirsagar', 'Lecturer', ['Masters in Technology', 'Environmental Engineering'], 'Regular','05/01/2008', '18 years'],
-		['Ms. Papiya Bala', 'Lecturer', ['Masters in Engineering', 'Environmental Engineering'],'Regular', '17/6/2010', '22 years'],
-		['Mr. Vishal Dalvi', 'Lecturer', ['Bachelors in Engineering', 'Civil'], 'Regular','14/06/2012', '12 years'],
-		['Mr. Lewis Anthony', 'Lecturer', ['Masters in Technology', 'Structural Engineering'],'Regular', '10/12/2012', '21 years']
+		['Mr. Manvendra Sinha', 'Head of Department', ['Masters in Technology', 'Construction Management'], '--','24/6/1995','0', '30 years'],
+		['Mr. Shashikant Sawant', 'Lecturer', ['Masters in Technology', 'Environmental Engineering'], 'Regular','25/11/2005', '2.5','20 years'],
+		['Ms. Nirmala Mascarenhas', 'Lecturer', ['Masters in Technology', 'Structural Engineering'],'Regular', '11/12/2006', '19 years'],
+		['Ms. Amarpreet Kaur', 'Lecturer', ['Masters in Technology', 'Construction Management'],'Regular', '01/08/2007','0', '18 years'],
+		['Ms. Seema Kshirsagar', 'Lecturer', ['Masters in Technology', 'Environmental Engineering'], 'Regular','05/01/2008','0', '20 years'],
+		['Ms. Papiya Bala', 'Lecturer', ['Masters in Engineering', 'Environmental Engineering'],'Regular', '17/6/2010','0', '23 years'],
+		['Mr. Vishal Dalvi', 'Lecturer', ['Bachelors in Engineering', 'Civil'], 'Regular','14/06/2012','0', '14 years'],
+		['Mr. Lewis Anthony', 'Lecturer', ['Masters in Technology', 'Structural Engineering'],'Regular', '10/12/2012', '9','12 years']
 		
 	];
 
