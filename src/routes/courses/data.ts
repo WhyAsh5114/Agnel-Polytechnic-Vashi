@@ -178,8 +178,8 @@ export const data: Record<string, DeptData> = {
 			'M.E Mechanical',
 			'M.Tech Machine Design',
 			'M.E Manufacturing System',
-			'B.Tech Production Engineering',
-			'M.Tech Production Engineering',
+			'B.Tech Production ',
+			'M.Tech Production ',
 			'B.Tech Production',
 			'M.Sc in Chemistry'
 		],
