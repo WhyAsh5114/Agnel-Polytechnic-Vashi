@@ -129,9 +129,9 @@
     NBA Details 2025
   </a>
 </li>
-
+<li>
 <a href="/pdfs/Key Highlights & Regulations.pdf" download>
-    NBA Details
+    Key Highlights & Regulations
   </a>
 </li>
 
