@@ -2,7 +2,7 @@
 	import Staff from './Staff.svelte';
 	let staff = [
 		['Mrs. Jewel Samantha', 'Chairman'],
-		['Mrs. Roopa Shetty', 'Member'],
+		['Ms. Roopa Shetty', 'Member'],
 		['Ms. Seema Kshirsagar', 'Member'],
 		['Ms. Malini Pawnday', 'Member'],
 		['Ms. Amarpreet Kaur', 'Member'],
