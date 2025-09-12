@@ -66,7 +66,7 @@ export const data: Record<string, DeptData> = {
 			'Ms. R.P. Snehalatha'
 
 		],
-		teachingFacultyQualifications: ['M.E Electronics', 'M.E', 'M.Tech', 'M.E', 'M.E', 'M.Tech', 'M.Tech', 'M.Tech Computer (Pursuing)','x', 'y'],
+		teachingFacultyQualifications: ['M.E Electronics', 'M.E', 'M.Tech', 'M.E', 'M.E', 'M.Tech', 'M.Tech', 'M.Tech Computer (Pursuing)','M. Sc. Physics', 'M. Sc. Maths'],
 		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge']
 	},
 	automobile_engineering: {
@@ -90,9 +90,10 @@ export const data: Record<string, DeptData> = {
 			'Mr. Satish Eandole',
 			'Mr. Mahesh Vhanmane',
 			'Ms. Deepti Kalantri',
+			'Ms. Ruchira Shinde',
 		    'Ms. Shalvi Bahadur'],
 			 
-		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','x1','z' ],
+		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','M. Sc. Physics','B.E Civil','M. Sc. Maths M. Phil. ' ],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod']
 	},
 	civil_engineering: {
@@ -118,7 +119,6 @@ export const data: Record<string, DeptData> = {
 			'Ms. Papiya Bala',
 			'Mr. Vishal Dalvi',
 			'Mr. Lewis Anthony',
-			'Ms. Ruchira Shinde',
 			'Ms. Roopa Shetty',
 			 'Mr. Upendra Rai'
 		],
@@ -131,9 +131,8 @@ export const data: Record<string, DeptData> = {
 			'M.E Environmental',
 			'B.E Civil',
 			'M.Tech Strucutual',
-			'B.E Civil',
-			'x3',
-			'x4'
+			'M. A. English',
+			'M. Sc. Chemistry'
 		],
 		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi']
 	},
@@ -180,8 +179,8 @@ export const data: Record<string, DeptData> = {
 			'M.E Manufacturing System',
 			'B.Tech Production ',
 			'M.Tech Production ',
-			'x55',
-			'x6'
+			'M. Sc. Maths',
+			'M. Sc. Chemistry'
 		],
 		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh']
 	}
