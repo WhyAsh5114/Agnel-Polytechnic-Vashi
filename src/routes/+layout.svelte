@@ -108,6 +108,8 @@
 			<h1 class="text-left hidden 2xl:block">Agnel Polytechnic, Vashi</h1>
 		</a>
 	</div>
+
+	<!--
 	<div class="navbar-center hidden 2xl:flex">
 		<ul class="menu menu-horizontal px-1 font-semibold">
 			<li><a href="/">HOME</a></li>
@@ -124,7 +126,7 @@
 						<a href="/about_us/institution_innovation_council">Institution innovation council</a>
 						<a href="/about_us/Audit_Statement">Audit Statement</a>
 
-						 <!-- 🔽 New Dropdown for Audit Statement -->
+						  🔽 New Dropdown for Audit Statement 
 					<li class="dropdown dropdown-hover">
 						<button tabindex="0">Audit Statement</button>
 						<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
@@ -138,7 +140,38 @@
 			</li>
 									</li>
 								</ul>
-			
+			-->
+
+			<div class="navbar-center hidden 2xl:flex">
+  <ul class="menu menu-horizontal px-1 font-semibold">
+    <li><a href="/">HOME</a></li>
+
+    <!-- ABOUT US Dropdown -->
+    <li class="dropdown dropdown-hover">
+      <button tabindex="0">ABOUT US</button>
+      <ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
+        <li><a href="/about_us/vision_and_mission">Vision and mission</a></li>
+        <li><a href="/about_us/staff_details">Staff details</a></li>
+        <li><a href="/about_us/anti_ragging">Anti ragging</a></li>
+        <li><a href="/about_us/ladies_grievance">Ladies grievance</a></li>
+        <li><a href="/about_us/prevention_of_sexual_harassment">Prevention of sexual harassment</a></li>
+        <li><a href="/about_us/students_mentoring">Students mentoring</a></li>
+        <li><a href="/about_us/institution_innovation_council">Institution innovation council</a></li>
+
+        <!-- 🔽 New Nested Dropdown for Audit Statement -->
+        <li class="dropdown dropdown-hover">
+          <button tabindex="0">Audit Statement</button>
+          <ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
+            <li><a href="/pdfs/ARP 23-24.pdf" download>Audit 2024</a></li>
+            <li><a href="/pdfs/ARP 22-23.pdf" download>Audit 2023</a></li>
+            <li><a href="/pdfs/ARP 21-22.pdf" download>Audit 2022</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
 			<li class="dropdown dropdown-hover">
 				<button tabindex="0">COURSES</button>
 				<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
