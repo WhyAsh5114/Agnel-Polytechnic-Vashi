@@ -126,7 +126,7 @@
         <li><a href="/about_us/institution_innovation_council">Institution innovation council</a></li>
 
         <!-- 🔽 Audit Statement with nested dropdown -->
-        <li class="dropdown dropdown-hover">
+      
           <button tabindex="0">Audit Statement</button>
           <ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
             <li><a href="/pdfs/ARP 23-24.pdf" download>Audit 2024</a></li>
@@ -135,7 +135,7 @@
           </ul>
         </li>
       </ul>
-    </li>
+    
 
     <!-- COURSES Dropdown -->
     <li class="dropdown dropdown-hover">
