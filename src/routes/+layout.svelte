@@ -113,7 +113,7 @@
   <ul class="menu menu-horizontal px-1 font-semibold">
     <li><a href="/">HOME</a></li>
 
-    <!-- ABOUT US Dropdown -->
+      <!-- ABOUT US with sub-menu -->
     <li class="dropdown dropdown-hover">
       <button tabindex="0">ABOUT US</button>
       <ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
@@ -125,7 +125,7 @@
         <li><a href="/about_us/students_mentoring">Students mentoring</a></li>
         <li><a href="/about_us/institution_innovation_council">Institution innovation council</a></li>
 
-        <!-- 🔽 Nested Audit Statement Dropdown -->
+        <!-- 🔽 Audit Statement with nested dropdown -->
         <li class="dropdown dropdown-hover">
           <button tabindex="0">Audit Statement</button>
           <ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
