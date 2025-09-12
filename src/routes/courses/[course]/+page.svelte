@@ -68,7 +68,7 @@
 						{#if ['M.Tech', 'M.E', 'M.Tech Construction Management', 'B.E IT', 'M.E IT', 'M.Tech Machine Design', 'M.E Manufacturing System', 'M.E CAD/CAM (Pursuing)'].includes(deptData.teachingFacultyQualifications[index])}
 							<p>{deptData.teachingFacultyQualifications[index]}</p>
 						{:else}
-							<p>{deptData.teachingFacultyQualifications[index]} Engineering</p>
+							<p>{deptData.teachingFacultyQualifications[index]}</p>
 						{/if}
 					</div>
 				</div>
