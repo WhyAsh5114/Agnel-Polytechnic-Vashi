@@ -135,7 +135,7 @@
           </ul>
         </li>
       </ul>
-    </li>
+    
 
     <!-- COURSES Dropdown -->
     <li class="dropdown dropdown-hover">
