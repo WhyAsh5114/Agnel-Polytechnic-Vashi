@@ -5,7 +5,7 @@
 
 <thead>
 	<tr>
-		<th colspan="5">{tableHeading}</th>
+		<th colspan="6">{tableHeading}</th>
 	</tr>
 </thead>
 <tbody>
@@ -33,6 +33,7 @@
 			<td class="capitalize">{member[3]}</td>
 			<td>{member[4]}</td>
 			<td>{member[5]}</td>
+			<td>{member[6]}</td>
 		</tr>
 	{/each}
 </tbody>

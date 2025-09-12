@@ -84,7 +84,8 @@
 				<th>Designation</th>
 				<th>Appointment Type</th>
 				<th>Joining date</th>
-				<th>Experience</th>
+				<th>Industry Experience</th>
+				<th>Teaching Experience</th>
 			</tr>
 		</thead>
 		<tbody>
