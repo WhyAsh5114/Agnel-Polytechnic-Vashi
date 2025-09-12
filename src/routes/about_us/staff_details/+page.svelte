@@ -49,27 +49,27 @@
 	];
 
 	let Artificial_Intelligence_Machine_Learning_teaching_staff = [
-		['Ms. Sonali Sherigar', 'Head of Department', ['Masters in Technology'], '--','24/6/1995', '32 years'],
-		['Mr. Pranavkumar Bhadane', 'Lecturer', ['M.E Computer '],'Regular', '14/02/2022', '12 years'],
-		['Mrs. Ashwini Baviskar', 'Lecturer', ['B.E IT'],'AdHoc', '01/02/2023',  '3 years'], 
-		['Mrs. Samina Siddique', 'Lecturer', ['M.Tech Computer (Pursuing)'],'AdHoc', '01/09/2023', '11 years'],
-		['Ms. Kirti Karande', 'Lecturer', ['M.E Computer (Pursuing)'],'AdHoc', '15/7/2024', '10 years'],
-		['Ms. Namrata Thakur', 'Lecturer', ['M.E Computer (Pursuing)'],'AdHoc', '17/09/2025', '9 years'],
-		['Ms. Monali Chandwadkar', 'Lecturer',[ 'B.E Computer'], 'AdHoc','03/03/2025', '8 years']
+		['Ms. Sonali Sherigar', 'Head of Department', ['Masters in Technology'], '--','24/6/1995', '0 years', '25 years'],
+		['Mr. Pranavkumar Bhadane', 'Lecturer', ['M.E Computer '],'Regular', '14/02/2022', '0 years', '12 years'],
+		['Mrs. Ashwini Baviskar', 'Lecturer', ['B.E IT'],'AdHoc', '01/02/2023', '0 years', '3 years'], 
+		['Mrs. Samina Siddique', 'Lecturer', ['M.Tech Computer (Pursuing)'],'AdHoc', '01/09/2023','7 years', '2 years'],
+		['Ms. Kirti Karande', 'Lecturer', ['M.E Computer (Pursuing)'],'AdHoc', '15/7/2024','3 years', '3 years'],
+		['Ms. Namrata Thakur', 'Lecturer', ['M.E Computer (Pursuing)'],'AdHoc', '17/09/2025', '0 years','8 years'],
+		['Ms. Monali Chandwadkar', 'Lecturer',[ 'B.E Computer'], 'AdHoc','03/03/2025','4 years', '4 years']
 ];
 
 
 
 	let humanities_department = [
-		['Mr. Venugopal Kurup', 'Lecturer', ['Masters in Science Maths', 'Bachelors in Education','PGDM'],'Regular', '09/01/1992', '30 years'],
+		['Mr. Venugopal Kurup', 'Lecturer', ['Masters in Science Maths', 'Bachelors in Education','PGDM'],'Regular', '09/01/1992','0 years', '30 years'],
 		['Ms. Malini Pawnday', 'Lecturer', ['Masters in Science', 'Physics'],'Regular', '16/07/1998','0 years', '25 years'],
 		['Ms. Roopa Shetty', 'Lecturer', ['Masters in Arts', 'English'],'Regular', '18/06/1996', '0 years','29 years'],
 		['Mr. Upendra Rai', 'Lecturer', ['Masters in Science', 'Chemistry', 'Bachelors in Education'],'Regular', '30/09/2003', '0 years', '27 years'],
 		['Ms. Shalvi Bahadur', 'Lecturer', ['Masters in Science', 'Maths', 'Masters in Philosophy'],'Regular', '01/07/2008', '0 years','14 years'],
-		['Ms. Deepti Kalantri', 'Lecturer', ['Masters in Science', 'Physics'],'Regular', '14/07/2008', '14 years'],
-		['Ms. Purnima M. Barhate', 'Lecturer', ['Masters in Science', 'Bachelors in Education', 'Masters in Philosophy'],'Regular', '20/07/2011', '13 years'],
+		['Ms. Deepti Kalantri', 'Lecturer', ['Masters in Science', 'Physics'],'Regular', '14/07/2008', '0 years','14 years'],
+		['Ms. Purnima M. Barhate', 'Lecturer', ['Masters in Science', 'Bachelors in Education', 'Masters in Philosophy'],'Regular', '20/07/2011','0 years', '13 years'],
 		['Ms. R.P. Snehalatha', 'Lecturer', ['Masters in Science', 'Bachelors in Education'],'Regular', '06/04/2012', '0 years','10 years'],
-		['Ms. Susan Sabu Manimala', 'Lecturer', ['BE in EXTC, MA in English Literature'], 'AdHoc', '01/06/2024', '5 years']
+		['Ms. Susan Sabu Manimala', 'Lecturer', ['BE in EXTC, MA in English Literature'], 'AdHoc', '01/06/2024','5 years', '5 years']
 	];
    
 
@@ -107,6 +107,7 @@
 				</td>
 				<td>--</td>
 				<td>29/03/1989</td>
+				<td>0 years </td>
 				<td>36 years</td>
 			</tr>
 		</tbody>
