@@ -125,8 +125,13 @@
         <li><a href="/about_us/students_mentoring">Students mentoring</a></li>
         <li><a href="/about_us/institution_innovation_council">Institution innovation council</a></li>
 		<li>
-  <a href="/pdfs/Key Highlights & Regulations.pdf" download>
-    Key Highlights & Regulations
+  <a href="/pdfs/NBA Details 2025.pdf" download>
+    NBA Details 2025
+  </a>
+</li>
+
+<a href="/pdfs/Key Highlights & Regulations.pdf" download>
+    NBA Details
   </a>
 </li>
 
