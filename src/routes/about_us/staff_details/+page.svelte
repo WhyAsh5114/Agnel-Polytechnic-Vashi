@@ -62,13 +62,13 @@
 
 	let humanities_department = [
 		['Mr. Venugopal Kurup', 'Lecturer', ['Masters in Science Maths', 'Bachelors in Education','PGDM'],'Regular', '09/01/1992', '30 years'],
-		['Ms. Malini Pawnday', 'Lecturer', ['Masters in Science', 'Physics'],'Regular', '16/07/1998', '25 years'],
-		['Ms. Roopa Shetty', 'Lecturer', ['Masters in Arts', 'English'],'Regular', '18/06/1996', '29 years'],
-		['Mr. Upendra Rai', 'Lecturer', ['Masters in Science', 'Chemistry', 'Bachelors in Education'],'Regular', '30/09/2003', '27 years'],
-		['Ms. Shalvi Bahadur', 'Lecturer', ['Masters in Science', 'Maths', 'Masters in Philosophy'],'Regular', '01/07/2008', '14 years'],
+		['Ms. Malini Pawnday', 'Lecturer', ['Masters in Science', 'Physics'],'Regular', '16/07/1998','0 years', '25 years'],
+		['Ms. Roopa Shetty', 'Lecturer', ['Masters in Arts', 'English'],'Regular', '18/06/1996', '0 years','29 years'],
+		['Mr. Upendra Rai', 'Lecturer', ['Masters in Science', 'Chemistry', 'Bachelors in Education'],'Regular', '30/09/2003', '0 years', '27 years'],
+		['Ms. Shalvi Bahadur', 'Lecturer', ['Masters in Science', 'Maths', 'Masters in Philosophy'],'Regular', '01/07/2008', '0 years','14 years'],
 		['Ms. Deepti Kalantri', 'Lecturer', ['Masters in Science', 'Physics'],'Regular', '14/07/2008', '14 years'],
 		['Ms. Purnima M. Barhate', 'Lecturer', ['Masters in Science', 'Bachelors in Education', 'Masters in Philosophy'],'Regular', '20/07/2011', '13 years'],
-		['Ms. R.P. Snehalatha', 'Lecturer', ['Masters in Science', 'Bachelors in Education'],'Regular', '06/04/2012', '10 years'],
+		['Ms. R.P. Snehalatha', 'Lecturer', ['Masters in Science', 'Bachelors in Education'],'Regular', '06/04/2012', '0 years','10 years'],
 		['Ms. Susan Sabu Manimala', 'Lecturer', ['BE in EXTC, MA in English Literature'], 'AdHoc', '01/06/2024', '5 years']
 	];
    
