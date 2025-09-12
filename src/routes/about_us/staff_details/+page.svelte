@@ -61,7 +61,7 @@
 
 
 	let humanities_department = [
-		['Mr. Venugopal Kurup', 'Lecturer', ['Masters in Science', 'Bachelors in Education'],'Regular', '09/01/1992', '30 years'],
+		['Mr. Venugopal Kurup', 'Lecturer', ['Masters in Science Maths', 'Bachelors in Education','PGDM'],'Regular', '09/01/1992', '30 years'],
 		['Ms. Malini Pawnday', 'Lecturer', ['Masters in Science', 'Physics'],'Regular', '16/07/1998', '25 years'],
 		['Ms. Roopa Shetty', 'Lecturer', ['Masters in Arts', 'English'],'Regular', '18/06/1996', '29 years'],
 		['Mr. Upendra Rai', 'Lecturer', ['Masters in Science', 'Chemistry', 'Bachelors in Education'],'Regular', '30/09/2003', '27 years'],
