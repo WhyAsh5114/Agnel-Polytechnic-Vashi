@@ -4,8 +4,17 @@
 		['Ms. Saly Antony', 'Principal'],
 		['Mrs. Raji MP', 'President'],
 		['Ms. Sonali Sherigar', 'Vice President'],
-		['Mr. Umesh Mhapankar', 'Convener'],
+		['Mr. Mohd Janisar', 'Convener'],
 		['Mr. Satish Eandole', 'Member']
+	];
+
+	let students = [
+		['Mr. Atharva Parmeshwar Sawalkar', 'CE'],
+		['Mr. Anshul Harish Vethekar ', 'AN'],
+		['Ms. Ojaswini Oak ', 'AN'],
+		['Ms. Anoushka Bhaskarwar', 'TE'],
+		['Mr. Shreeyash Babaji Patil', 'TE'],
+		['Mr. Sarthak Mahesh Bankarl', 'ME']
 	];
 </script>
 
@@ -38,5 +47,6 @@
 		</thead>
 
 		<Staff data={staff} />
+		<Staff data={students} />
 	</table>
 </div>
