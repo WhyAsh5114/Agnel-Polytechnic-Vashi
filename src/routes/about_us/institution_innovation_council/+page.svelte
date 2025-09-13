@@ -9,12 +9,12 @@
 	];
 
 	let students = [
-		['Mr. Atharva Parmeshwar Sawalkar', 'CE'],
-		['Mr. Anshul Harish Vethekar ', 'AN'],
-		['Ms. Ojaswini Oak ', 'AN'],
-		['Ms. Anoushka Bhaskarwar', 'TE'],
-		['Mr. Shreeyash Babaji Patil', 'TE'],
-		['Mr. Sarthak Mahesh Bankarl', 'ME']
+		['Mr. Anshul Harish Vethekar ', 'AN5I'],
+		['Ms. Ojaswini Oak ', 'AN3K'],
+		['Ms. Anoushka Bhaskarwar', 'TE3k'],
+		['Mr. Shreeyash Babaji Patil', 'TE3k'],
+		['Mr. Sarthak Mahesh Bankarl', 'ME'],
+		['Mr. Atharva Parmeshwar Sawalkar', 'CE']
 	];
 </script>
 
@@ -47,6 +47,15 @@
 		</thead>
 
 		<Staff data={staff} />
+		
+		<div class="overflow-x-auto w-full">
+	<table class="table w-full">
+		<thead>
+			<tr>
+				<th>Name of the student Co-ordinator</th>
+				<th>Department</th>
+			</tr>
+		</thead>
 		<Staff data={students} />
 	</table>
 </div>
