@@ -47,9 +47,6 @@
 		</thead>
 
 		<Staff data={staff} />
-		
-		<div class="overflow-x-auto w-full">
-	<table class="table w-full">
 		<thead>
 			<tr>
 				<th>Name of the student Co-ordinator</th>
