@@ -61,7 +61,7 @@
 		</ul>
 	</div>
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
-		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Admissions under Institutional Quota</h1>
+		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Admission under Institutional Quota</h1>
 		<p>
 			The Institution can admit eligible candidates against 20% of sanctioned intake. Aspiring candidates can apply to the Principal for admission at
 			the Institute Level.
