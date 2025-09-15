@@ -2,7 +2,7 @@
 	import DepartmentTeachingStaff from './DepartmentTeachingStaff.svelte';
 
 	let civil_engineering_teaching_staff = [
-		['Mr. Manvendra Sinha', 'Head of Department', ['Masters in Technology', 'Construction Management'], '--','24/6/1995','0 years', '30 years'],
+		['Mr. Manvendra Sinha', 'Head of Department', ['Masters in Technology', 'Construction Management'], 'Regular','24/6/1995','0 years', '30 years'],
 		['Mr. Shashikant Sawant', 'Lecturer', ['Masters in Technology', 'Environmental Engineering'], 'Regular','25/11/2005', '2.5 years','20 years'],
 		['Ms. Nirmala Mascarenhas', 'Lecturer', ['Masters in Technology', 'Structural Engineering'],'Regular', '11/12/2006','0 years', '19 years'],
 		['Ms. Amarpreet Kaur', 'Lecturer', ['Masters in Technology', 'Construction Management'],'Regular', '01/08/2007','0 years', '18 years'],
@@ -14,7 +14,7 @@
 	];
 
 	let automobile_engineering_teaching_staff = [
-		['Mr. Nitin Kulkarni', 'Head of Department', ['Masters in Engineering', 'Mechanical'],'--', '10/07/2006', '0 years','19 years'],
+		['Mr. Nitin Kulkarni', 'Head of Department', ['Masters in Engineering', 'Mechanical'],'Regular', '10/07/2006', '0 years','19 years'],
 		['Mr. Dinesh Patil', 'Lecturer', ['Masters in Technology', 'Mechanical'], 'Regular','04/06/2007','0 years', '18 years'],
 		['Ms. Cige Louis', 'Lecturer', ['Bachelors in Engineering', 'Production'], 'Regular','03/01/2011', '0 years', '14 years'],
 		['Mr. Satish Eandole', 'Lecturer', ['Bachelors in Engineering', 'Mechanical'],'Regular', '09/01/2012','0 years', '15 years'],
@@ -23,7 +23,7 @@
 	];
 
 	let electronics_telecommunication_teaching_staff = [
-		['Mrs. Raji MP', 'Head of Department', ['Masters in Engineering', 'Electrical'],'--', '06/06/1995', '0 years', '30 years'],
+		['Mrs. Raji MP', 'Head of Department', ['Masters in Engineering', 'Electrical'],'Regular', '06/06/1995', '0 years', '30 years'],
 		['Mrs. Jewel Samantha', 'Training and Placement Officer', ['M.Tech', 'Electronics'], 'Regular','07/01/1997','0 years', '28 years'],
 		['Mrs. Suhasini David Sekhar', 'Lecturer', ['Masters in Technology', 'Electrical'], 'Regular','06/01/1998','0 years', '27 years'],
 		['Mr. Umesh Mhapankar', 'Lecturer', ['Masters in Engineering', 'Electronics'],'Regular', '12/01/2003','2 years', '22 years'],
@@ -34,7 +34,7 @@
 	];
 
 	let mechanical_engineering_teaching_staff = [
-		['Mrs. Beenu Johnkutty', 'Head of Department', ['Masters in Technology', 'Machine Design'],'--', '17/08/2006', '8 years', '19 years'],
+		['Mrs. Beenu Johnkutty', 'Head of Department', ['Masters in Technology', 'Machine Design'],'Regular', '17/08/2006', '8 years', '19 years'],
 		['Mr. Yogesh Vishwakarma', 'Lecturer', ['Masters in Engineering', 'Automobile'],'Regular', '07/02/2003', '2 years','22 years'],
 		['Ms. Pratima Kokate', 'Lecturer', ['Masters in Technology', 'Machine Design'],'Regular', '03/07/2007', '0 years','18 years'],
 		['Mr. Ravindra Dhawale', 'Lecturer', ['Masters in Technology', 'Production'], 'Regular','01/12/2007','9 years', '17 years'],
@@ -49,7 +49,7 @@
 	];
 
 	let Artificial_Intelligence_Machine_Learning_teaching_staff = [
-		['Ms. Sonali Sherigar', 'Head of Department', ['Masters in Technology'], '--','24/6/1995', '0 years', '25 years'],
+		['Ms. Sonali Sherigar', 'Head of Department', ['Masters in Technology'], 'Regular','24/6/1995', '0 years', '25 years'],
 		['Mr. Pranavkumar Bhadane', 'Lecturer', ['M.E Computer '],'Regular', '14/02/2022', '0 years', '12 years'],
 		['Mrs. Ashwini Baviskar', 'Lecturer', ['B.E IT'],'AdHoc', '01/02/2023', '0 years', '3 years'], 
 		['Mrs. Samina Siddique', 'Lecturer', ['M.Tech Computer (Pursuing)'],'AdHoc', '01/09/2023','7 years', '2 years'],
@@ -105,7 +105,7 @@
 					<br />
 					<span class="badge badge-ghost badge-sm">Masters in Engineering</span>
 				</td>
-				<td>--</td>
+				<td>Regular</td>
 				<td>29/03/1989</td>
 				<td>0 years </td>
 				<td>36 years</td>
