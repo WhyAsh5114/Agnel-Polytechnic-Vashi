@@ -138,7 +138,6 @@
 
 			<!-- Magazine -->
 			<div>
-				<h4 class="text-center text-4xl font-bold mb-4">Magazine</h4>
 				<div class="flex flex-wrap gap-5 justify-center items-end">
 					{#if data.items['Magazine'] && data.items['Magazine'].length > 0}
 							<div>
