@@ -4,10 +4,20 @@
 
 	import { page } from '$app/stores';
 
+	let showPDF: string | null = null; // store the selected PDF path
+
 	function removeExtension(filename: string) {
 		var lastDotPosition = filename.lastIndexOf('.');
 		if (lastDotPosition === -1) return filename;
 		else return filename.substring(0, lastDotPosition);
+	}
+
+	function openPDF(pdf: string) {
+		showPDF = `/courses/${$page.params.course}/Magazine/${pdf}`;
+	}
+
+	function closePDF() {
+		showPDF = null;
 	}
 </script>
 
@@ -145,20 +155,18 @@
 				<div class="flex justify-center">
 					{#if data.items['Magazine'] && data.items['Magazine'].length > 0}
 						{#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdf}
-							<div class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto">
-								<a href={`/courses/${$page.params.course}/Magazine/${pdf}`} download>
-									<figure class="flex justify-center">
-										<img 
-											src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`} 
-											alt="Magazine Cover" 
-											class="object-contain max-h-[500px]"
-										/>
-									</figure>
-									<div class="card-body">
-										<h2 class="card-title text-base text-center">{removeExtension(pdf)}</h2>
-										<p class="text-sm text-white-700 text-center">Click to download PDF</p>
-									</div>
-								</a>
+							<div class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto cursor-pointer" on:click={() => openPDF(pdf)}>
+								<figure class="flex justify-center">
+									<img                                   
+										src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`} 
+										alt="Magazine Cover" 
+										class="object-contain max-h-[500px]"
+									/>
+								</figure>
+								<div class="card-body">
+									<h2 class="card-title text-base text-center">{removeExtension(pdf)}</h2>
+									<p class="text-sm text-blue-700 text-center">Click to view PDF</p>
+								</div>
 							</div>
 						{/each}
 					{/if}
@@ -168,3 +176,13 @@
 		</div>
 	</section>
 </div>
+
+<!-- PDF Viewer Modal -->
+{#if showPDF}
+	<div class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+		<div class="relative bg-white w-11/12 h-5/6 rounded-lg shadow-xl flex flex-col">
+			<button class="absolute top-2 right-2 bg-red-500 text-white rounded-full px-3 py-1 text-lg font-bold" on:click={closePDF}>×</button>
+			<iframe src={showPDF} class="w-full h-full rounded-lg"></iframe>
+		</div>
+	</div>
+{/if}
