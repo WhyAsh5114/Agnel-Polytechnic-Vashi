@@ -93,28 +93,24 @@
 	</section>
 
 	<!-- Dynamic Sections (Images + Magazine) -->
-	{#each Object.keys(data.items) as directory, i}
-		<section class="flex flex-col gap-6">
-			<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">{directory}</h4>
-			<div class="flex flex-wrap gap-5 mx-auto justify-center items-end">
-				{#each data.items[directory] as item}
-					{#if directory === "Magazine"}
-						<!-- Special Case: Magazine (Download PDF) -->
-						<div class="card card-compact w-96 shadow-xl h-fit bg-secondary text-black">
-							<a href={`/courses/${$page.params.course}/${directory}/${item}`} download>
-								<figure>
-									<img 
-										src={`/courses/${$page.params.course}/${directory}/${removeExtension(item)}.webp`} 
-										alt="Magazine Cover" 
-									/>
-								</figure>
-								<div class="card-body">
-									<h2 class="card-title text-base">{removeExtension(item)}</h2>
-									<p class="text-sm text-blue-700">Click to download PDF</p>
-								</div>
-							</a>
-						</div>
-					{:else}
+{#if directory === "Magazine"}
+	{#each data.items[directory].filter(file => file.endsWith('.pdf')) as pdf}
+		<div class="card card-compact w-96 shadow-xl h-fit bg-secondary text-black">
+			<a href={`/courses/${$page.params.course}/${directory}/${pdf}`} download>
+				<figure>
+					<img 
+						src={`/courses/${$page.params.course}/${directory}/${removeExtension(pdf)}.webp`} 
+						alt="Magazine Cover" 
+					/>
+				</figure>
+				<div class="card-body">
+					<h2 class="card-title text-base">{removeExtension(pdf)}</h2>
+					<p class="text-sm text-blue-700">Click to download PDF</p>
+				</div>
+			</a>
+		</div>
+	{/each}
+{:else}
 						<!-- Default Case: Normal Images -->
 						<div class="card card-compact w-96 shadow-xl h-fit {i % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
 							<figure>
