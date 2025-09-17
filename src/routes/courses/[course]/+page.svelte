@@ -120,19 +120,15 @@
 			<!-- Toppers -->
 			<div>
 				<h4 class="text-center text-4xl font-bold mb-4">Toppers</h4>
-				<div class="flex flex-wrap gap-8 justify-center items-start">
+				<div class="flex flex-wrap gap-5 justify-center items-end">
 					{#if data.items['Toppers']}
 						{#each data.items['Toppers'] as topper, idx}
-							<div class="card w-80 shadow-2xl h-[28rem] {idx % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
-								<figure class="h-72">
-									<img 
-										src={`/courses/${$page.params.course}/Toppers/${topper}`} 
-										alt={`${topper} picture`} 
-										class="object-cover w-full h-full rounded-t-xl"
-									/>
+							<div class="card card-compact w-64 shadow-xl h-fit {idx % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
+								<figure>
+									<img src={`/courses/${$page.params.course}/Toppers/${topper}`} alt={`${topper} picture`} />
 								</figure>
 								<div class="card-body">
-									<h2 class="card-title text-lg">{removeExtension(topper)}</h2>
+									<h2 class="card-title text-base">{removeExtension(topper)}</h2>
 								</div>
 							</div>
 						{/each}
@@ -145,25 +141,28 @@
 				<h4 class="text-center text-4xl font-bold mb-4">Magazine</h4>
 				<div class="flex flex-wrap gap-5 justify-center items-end">
 					{#if data.items['Magazine'] && data.items['Magazine'].length > 0}
-						<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-							{#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdf}
-								<div class="card card-compact w-full shadow-xl h-fit bg-secondary text-black">
+							<div>
+								
+								<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+								{#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdf}
+									<div class="card card-compact w-full shadow-xl h-fit bg-secondary text-black">
 									<a href={`/courses/${$page.params.course}/Magazine/${pdf}`} download>
 										<figure>
-											<img 
-												src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`} 
-												alt="Magazine Cover" 
-											/>
+										<img 
+											src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`} 
+											alt="Magazine Cover" 
+										/>
 										</figure>
 										<div class="card-body">
-											<h2 class="card-title text-base">{removeExtension(pdf)}</h2>
-											<p class="text-sm text-blue-700">Click to download PDF</p>
+										<h2 class="card-title text-base">{removeExtension(pdf)}</h2>
+										<p class="text-sm text-blue-700">Click to download PDF</p>
 										</div>
 									</a>
+									</div>
+								{/each}
 								</div>
-							{/each}
-						</div>
-					{/if}
+							</div>
+							{/if}
 				</div>
 			</div>
 
