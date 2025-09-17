@@ -97,7 +97,7 @@
 		{#if directory !== "Toppers" && directory !== "Magazine"}
 			<section class="flex flex-col gap-6">
 				<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">{directory}</h4>
-				<div class="flex flex-wrap gap-5 mx-auto justify-center items-end">
+				<div class="flex flex-wrap gap-5 mx-auto justify-center items-start">
 					{#each data.items[directory] as item}
 						<div class="card card-compact w-96 shadow-xl h-fit {i % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
 							<figure>
