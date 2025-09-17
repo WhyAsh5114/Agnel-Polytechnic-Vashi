@@ -156,7 +156,7 @@
 									</figure>
 									<div class="card-body">
 										<h2 class="card-title text-base text-center">{removeExtension(pdf)}</h2>
-										<p class="text-sm text-blue-700 text-center">Click to download PDF</p>
+										<p class="text-sm text-white-700 text-center">Click to download PDF</p>
 									</div>
 								</a>
 							</div>
