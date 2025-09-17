@@ -165,7 +165,7 @@
 								</figure>
 								<div class="card-body">
 									<h2 class="card-title text-base text-center">{removeExtension(pdf)}</h2>
-									<p class="text-sm text-blue-700 text-center">Click to view PDF</p>
+									<p class="text-sm text-white text-center">Click to view PDF</p>
 								</div>
 							</div>
 						{/each}
