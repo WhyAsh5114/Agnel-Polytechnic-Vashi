@@ -33,9 +33,7 @@
 			<div class="card shadow-xl text-white bg-secondary">
 				<div class="card-body">
 					<h2 class="card-title mx-auto text-4xl font-bold">Vision</h2>
-					<p class="text-lg text-justify">
-						{deptData.vision}
-					</p>
+					<p class="text-lg text-justify">{deptData.vision}</p>
 				</div>
 			</div>
 			<div class="card shadow-xl text-white bg-secondary">
@@ -120,15 +118,20 @@
 			<!-- Toppers -->
 			<div>
 				<h4 class="text-center text-4xl font-bold mb-4">Toppers</h4>
-				<div class="flex flex-wrap gap-5 justify-center items-end">
+				<div class="flex justify-center">
 					{#if data.items['Toppers']}
 						{#each data.items['Toppers'] as topper, idx}
-							<div class="card card-compact w-64 shadow-xl h-fit {idx % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
-								<figure>
-									<img src={`/courses/${$page.params.course}/Toppers/${topper}`} alt={`${topper} picture`} />
+							<div class="card card-compact w-80 shadow-xl h-fit mx-auto 
+								{idx % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
+								<figure class="flex justify-center">
+									<img 
+										src={`/courses/${$page.params.course}/Toppers/${topper}`} 
+										alt={`${topper} picture`} 
+										class="object-contain max-h-[500px]"
+									/>
 								</figure>
 								<div class="card-body">
-									<h2 class="card-title text-base">{removeExtension(topper)}</h2>
+									<h2 class="card-title text-base text-center">{removeExtension(topper)}</h2>
 								</div>
 							</div>
 						{/each}
@@ -139,30 +142,26 @@
 			<!-- Magazine -->
 			<div>
 				<h4 class="text-center text-4xl font-bold mb-4">Magazine</h4>
-				<div class="flex flex-wrap gap-5 justify-center items-end">
+				<div class="flex justify-center">
 					{#if data.items['Magazine'] && data.items['Magazine'].length > 0}
-							<div>
-								
-								<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-								{#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdf}
-									<div class="card card-compact w-full shadow-xl h-fit bg-secondary text-black">
-									<a href={`/courses/${$page.params.course}/Magazine/${pdf}`} download>
-										<figure>
+						{#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdf}
+							<div class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto">
+								<a href={`/courses/${$page.params.course}/Magazine/${pdf}`} download>
+									<figure class="flex justify-center">
 										<img 
 											src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`} 
 											alt="Magazine Cover" 
+											class="object-contain max-h-[500px]"
 										/>
-										</figure>
-										<div class="card-body">
-										<h2 class="card-title text-base">{removeExtension(pdf)}</h2>
-										<p class="text-sm text-blue-700">Click to download PDF</p>
-										</div>
-									</a>
+									</figure>
+									<div class="card-body">
+										<h2 class="card-title text-base text-center">{removeExtension(pdf)}</h2>
+										<p class="text-sm text-blue-700 text-center">Click to download PDF</p>
 									</div>
-								{/each}
-								</div>
+								</a>
 							</div>
-							{/if}
+						{/each}
+					{/if}
 				</div>
 			</div>
 
