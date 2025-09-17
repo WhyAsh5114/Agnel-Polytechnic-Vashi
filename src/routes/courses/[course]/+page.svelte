@@ -142,7 +142,7 @@
 				<div class="flex flex-wrap gap-5 justify-center items-end">
 					{#if data.items['Magazine'] && data.items['Magazine'].length > 0}
 							<div>
-								<h2 class="text-2xl font-bold mb-4">Magazine</h2>
+								
 								<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
 								{#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdf}
 									<div class="card card-compact w-full shadow-xl h-fit bg-secondary text-black">
