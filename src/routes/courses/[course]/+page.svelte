@@ -140,24 +140,29 @@
 			<div>
 				<h4 class="text-center text-4xl font-bold mb-4">Magazine</h4>
 				<div class="flex flex-wrap gap-5 justify-center items-end">
-					{#if data.items['Magazine']}
-						{#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdfFile}
-							<div class="card card-compact w-64 shadow-xl h-fit bg-secondary text-black">
-								<a href={`/courses/${$page.params.course}/Magazine/${pdfFile}`} download>
-									<figure>
+					{#if data.items['Magazine'] && data.items['Magazine'].length > 0}
+							<div>
+								<h2 class="text-2xl font-bold mb-4">Magazine</h2>
+								<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+								{#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdf}
+									<div class="card card-compact w-full shadow-xl h-fit bg-secondary text-black">
+									<a href={`/courses/${$page.params.course}/Magazine/${pdf}`} download>
+										<figure>
 										<img 
-											src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdfFile)}.webp`} 
+											src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`} 
 											alt="Magazine Cover" 
 										/>
-									</figure>
-									<div class="card-body">
-										<h2 class="card-title text-base">{removeExtension(pdfFile)}</h2>
+										</figure>
+										<div class="card-body">
+										<h2 class="card-title text-base">{removeExtension(pdf)}</h2>
 										<p class="text-sm text-blue-700">Click to download PDF</p>
+										</div>
+									</a>
 									</div>
-								</a>
+								{/each}
+								</div>
 							</div>
-						{/each}
-					{/if}
+							{/if}
 				</div>
 			</div>
 
