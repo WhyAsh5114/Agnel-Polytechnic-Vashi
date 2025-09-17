@@ -12,6 +12,7 @@
 </script>
 
 <div class="flex flex-col gap-12">
+	<!-- Department Name + HOD -->
 	<section class="px-2">
 		<h3 class="text-center text-4xl font-bold max-w-7xl mx-auto mb-4">{deptData.name}</h3>
 		<div class="card lg:card-side shadow-xl bg-accent max-w-7xl mx-auto pt-2 lg:p-5 items-center justify-center">
@@ -24,6 +25,8 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Vision and Mission -->
 	<section class="flex justify-around items-center flex-col gap-6 px-2">
 		<div class="grid lg:grid-cols-2 gap-x-8 gap-y-2 max-w-7xl">
 			<h2 class="text-center text-4xl font-bold max-w-7xl mx-auto lg:col-span-2 mb-4">Vision and Mission</h2>
@@ -57,6 +60,8 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Teaching Faculty -->
 	<section class="flex flex-col gap-6">
 		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Teaching Faculty</h4>
 		<div class="flex flex-wrap gap-5 mx-auto justify-center mb-16">
@@ -65,16 +70,14 @@
 					<figure><img src="/staff/{name}.webp" alt="{name} picture" class="aspect-square" /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
-						{#if ['M.Tech', 'M.E', 'M.Tech Construction Management', 'B.E IT', 'M.E IT', 'M.Tech Machine Design', 'M.E Manufacturing System', 'M.E CAD/CAM (Pursuing)'].includes(deptData.teachingFacultyQualifications[index])}
-							<p>{deptData.teachingFacultyQualifications[index]}</p>
-						{:else}
-							<p>{deptData.teachingFacultyQualifications[index]}</p>
-						{/if}
+						<p>{deptData.teachingFacultyQualifications[index]}</p>
 					</div>
 				</div>
 			{/each}
 		</div>
 	</section>
+
+	<!-- Non-Teaching Faculty -->
 	<section class="flex flex-col gap-6">
 		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Non-Teaching Faculty</h4>
 		<div class="flex flex-wrap gap-5 mx-auto justify-center items-end">
@@ -88,19 +91,40 @@
 			{/each}
 		</div>
 	</section>
+
+	<!-- Dynamic Sections (Images + Magazine) -->
 	{#each Object.keys(data.items) as directory, i}
 		<section class="flex flex-col gap-6">
 			<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">{directory}</h4>
 			<div class="flex flex-wrap gap-5 mx-auto justify-center items-end">
 				{#each data.items[directory] as item}
-					<div class="card card-compact w-96 shadow-xl h-fit {i % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
-						<figure>
-							<img src="/courses/{$page.params.course}/{directory}/{item}" alt={`${item} picture`} />
-						</figure>
-						<div class="card-body">
-							<h2 class="card-title text-base">{removeExtension(item)}</h2>
+					{#if directory === "Magazine"}
+						<!-- Special Case: Magazine (Download PDF) -->
+						<div class="card card-compact w-96 shadow-xl h-fit bg-secondary text-black">
+							<a href={`/courses/${$page.params.course}/${directory}/${item}`} download>
+								<figure>
+									<img 
+										src={`/courses/${$page.params.course}/${directory}/${removeExtension(item)}.webp`} 
+										alt="Magazine Cover" 
+									/>
+								</figure>
+								<div class="card-body">
+									<h2 class="card-title text-base">{removeExtension(item)}</h2>
+									<p class="text-sm text-blue-700">Click to download PDF</p>
+								</div>
+							</a>
 						</div>
-					</div>
+					{:else}
+						<!-- Default Case: Normal Images -->
+						<div class="card card-compact w-96 shadow-xl h-fit {i % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
+							<figure>
+								<img src={`/courses/${$page.params.course}/${directory}/${item}`} alt={`${item} picture`} />
+							</figure>
+							<div class="card-body">
+								<h2 class="card-title text-base">{removeExtension(item)}</h2>
+							</div>
+						</div>
+					{/if}
 				{/each}
 			</div>
 		</section>
