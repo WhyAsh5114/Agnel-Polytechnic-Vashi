@@ -77,4 +77,25 @@
 		<a href="https://dsel.education.gov.in/sites/default/files/update/Draft_UMMEED_Guielines.pdf" class="btn btn-secondary text-lg text-black border-none normal-case" target="_blank">Visit UMMEED</a>
 		
 	</div>
+	<h2 class="text-3xl font-bold lg:col-span-2 lg:divider px-2">Anti Ragging Squad (ARS)</h2>
+	<div class="overflow-x-auto w-full">
+		<table class="table w-full">
+			<thead>
+				<tr>
+					<th>Name of the staff</th>
+					<th>Designation</th>
+					<th>Contact Number</th>
+				</tr>
+			</thead>
+			<StaffMember data={squad} />
+		</table>
+	</div>
+	<div class="flex btn-group btn-group-vertical lg:btn-group-horizontal gap-0.5">
+		<a href="http://antiragging.in/" class="btn btn-secondary text-lg text-black border-none normal-case" target="_blank">Visit Anti-Ragging</a>
+		<a href="https://www.amanmovement.org/" class="btn btn-secondary text-lg text-black border-none normal-case" target="_blank">Visit AmanMovement</a>
+	</div>
+<div class="flex btn-group btn-group-vertical lg:btn-group-horizontal gap-0.5">
+		<a href="https://dsel.education.gov.in/sites/default/files/update/Draft_UMMEED_Guielines.pdf" class="btn btn-secondary text-lg text-black border-none normal-case" target="_blank">Visit UMMEED</a>
+		
+	</div>
 </div>
