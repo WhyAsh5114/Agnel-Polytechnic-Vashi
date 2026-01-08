@@ -24,6 +24,10 @@
 		['Parent Representative', 'Chemical Engineer', 'Mr. Sandip Thakur', '9967540238'],
 		['Police Administrator', 'PSI of Vashi Police Station', 'As Per Availability', '27820468']
 	];
+let squad1 = [
+		['Nodal Officer', 'Lecturer', 'Mr. Upendra Rai', '9869358567'],
+		['Counsellor', '-', 'Mrs. Rupali Hegade', '8433591570'],
+		];
 </script>
 
 <div class="flex flex-col gap-10 items-center justify-center">
@@ -87,7 +91,7 @@
 					<th>Contact Number</th>
 				</tr>
 			</thead>
-			<StaffMember data={squad} />
+			<StaffMember data={squad1} />
 		</table>
 	</div>
 	
