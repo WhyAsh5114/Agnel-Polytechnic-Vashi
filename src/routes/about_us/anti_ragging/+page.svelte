@@ -74,4 +74,8 @@
 		<a href="https://www.amanmovement.org/" class="btn btn-secondary text-lg text-black border-none normal-case" target="_blank">Visit AmanMovement</a
 		>
 	</div>
+<div class="flex btn-group btn-group-vertical lg:btn-group-horizontal gap-0.5">
+		<a href="https://dsel.education.gov.in/" class="btn btn-secondary text-lg text-black border-none normal-case" target="_blank">Visit UMMEED</a>
+		
+	</div>
 </div>
