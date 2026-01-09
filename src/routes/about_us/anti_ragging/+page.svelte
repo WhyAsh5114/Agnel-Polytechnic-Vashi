@@ -77,10 +77,7 @@ let squad1 = [
 		<a href="http://antiragging.in/" class="btn btn-secondary text-lg text-black border-none normal-case" target="_blank">Visit Anti-Ragging</a>
 		<a href="https://www.amanmovement.org/" class="btn btn-secondary text-lg text-black border-none normal-case" target="_blank">Visit AmanMovement</a>
 	</div>
-<div class="flex btn-group btn-group-vertical lg:btn-group-horizontal gap-0.5">
-		<a href="https://dsel.education.gov.in/sites/default/files/update/Draft_UMMEED_Guielines.pdf" class="btn btn-secondary text-lg text-black border-none normal-case" target="_blank">Visit UMMEED</a>
-		
-	</div>
+
 	<h2 class="text-3xl font-bold lg:col-span-2 lg:divider px-2">UMMEED</h2>
 	<div class="overflow-x-auto w-full">
 		<table class="table w-full">
