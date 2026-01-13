@@ -64,6 +64,7 @@
 							<li><a href="/about_us/prevention_of_sexual_harassment">Prevention of sexual harassment</a></li>
 							<li><a href="/about_us/students_mentoring">Students mentoring</a></li>
 							<li><a href="/about_us/institution_innovation_council">Institution innovation council</a></li>
+							
 						</ul>
 					</details>
 				</li>
@@ -107,42 +108,71 @@
 			<h1 class="text-left hidden 2xl:block">Agnel Polytechnic, Vashi</h1>
 		</a>
 	</div>
+
 	<div class="navbar-center hidden 2xl:flex">
-		<ul class="menu menu-horizontal px-1 font-semibold">
-			<li><a href="/">HOME</a></li>
-			<li class="dropdown dropdown-hover">
-				<button tabindex="0">ABOUT US</button>
-				<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
-					<li>
-						<a href="/about_us/vision_and_mission">Vision and mission</a>
-						<a href="/about_us/staff_details">Staff details</a>
-						<a href="/about_us/anti_ragging">Anti ragging</a>
-						<a href="/about_us/ladies_grievance">Ladies grievance</a>
-						<a href="/about_us/prevention_of_sexual_harassment">Prevention of sexual harassment</a>
-						<a href="/about_us/students_mentoring">Students mentoring</a>
-						<a href="/about_us/institution_innovation_council">Institution innovation council</a>
-					</li>
-				</ul>
-			</li>
-			<li class="dropdown dropdown-hover">
-				<button tabindex="0">COURSES</button>
-				<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
-					<li>
-						<a href="/courses/artificial_intelligence">Artificial Intelligence</a>
-						<a href="/courses/electronics_and_computer_engineering">Electronics & Computer Engineering</a>
-						<a href="/courses/civil_engineering">Civil Engineering</a>
-						<a href="/courses/automobile_engineering">Automobile Engineering</a>
-						<a href="/courses/mechanical_engineering">Mechanical Engineering</a>
-					</li>
-				</ul>
-			</li>
-			<!-- <li><a href="/campus_life">CAMPUS LIFE</a></li> -->
-			<li><a href="/gallery/Facilities">GALLERY</a></li>
-			<li><a href="/admissions">ADMISSIONS</a></li>
-			<li><a href="/syllabus">SYLLABUS</a></li>
-			<li><a href="/contact_us">CONTACT US</a></li>
-		</ul>
-	</div>
+  <ul class="menu menu-horizontal px-1 font-semibold">
+    <li><a href="/">HOME</a></li>
+
+      <!-- ABOUT US with sub-menu -->
+    <li class="dropdown dropdown-hover">
+      <button tabindex="0">ABOUT US</button>
+      <ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
+        <li><a href="/about_us/vision_and_mission">Vision and mission</a></li>
+        <li><a href="/about_us/staff_details">Staff details</a></li>
+        <li><a href="/about_us/anti_ragging">Anti ragging</a></li>
+        <li><a href="/about_us/ladies_grievance">Ladies grievance</a></li>
+        <li><a href="/about_us/prevention_of_sexual_harassment">Prevention of sexual harassment</a></li>
+        <li><a href="/about_us/students_mentoring">Students mentoring</a></li>
+        <li><a href="/about_us/institution_innovation_council">Institution innovation council</a></li>
+		<li>
+<a href="/pdfs/Placement Details 2025.pdf" download>
+    Placement Details 2025
+  </a>
+</li>
+		<li>
+  <a href="/pdfs/NBA Details 2025.pdf" download>
+    NBA Details 2025
+  </a>
+</li>
+<li>
+<a href="/pdfs/Key Highlights & Regulations.pdf" download>
+    Key Highlights & Regulations
+  </a>
+</li>
+
+        <!-- 🔽 Audit Statement with nested dropdown -->
+        <li class="dropdown dropdown-hover">
+          <button tabindex="0">Audit Statement</button>
+          <ul class="dropdown-content  p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
+            <li><a href="/pdfs/ARP 23-24.pdf" download>Audit 2024</a></li>
+            <li><a href="/pdfs/ARP 22-23.pdf" download>Audit 2023</a></li>
+            <li><a href="/pdfs/ARP 21-22.pdf" download>Audit 2022</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+         
+
+    <!-- COURSES Dropdown -->
+    <li class="dropdown dropdown-hover">
+      <button tabindex="0">COURSES</button>
+      <ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 border-accent border-2">
+        <li><a href="/courses/artificial_intelligence">Artificial Intelligence</a></li>
+        <li><a href="/courses/electronics_and_computer_engineering">Electronics & Computer Engineering</a></li>
+        <li><a href="/courses/civil_engineering">Civil Engineering</a></li>
+        <li><a href="/courses/automobile_engineering">Automobile Engineering</a></li>
+        <li><a href="/courses/mechanical_engineering">Mechanical Engineering</a></li>
+      </ul>
+    </li>
+
+    <!-- Other Top Level -->
+    <li><a href="/gallery/Facilities">GALLERY</a></li>
+    <li><a href="/admissions">ADMISSIONS</a></li>
+    <li><a href="/syllabus">SYLLABUS</a></li>
+    <li><a href="/contact_us">CONTACT US</a></li>
+  </ul>
+</div>
 
 	<div class="navbar-end gap-3">
 		<a class="btn rounded-sm btn-secondary items-center hidden md:inline-flex" href="https://connect.apv.ac.in"> Connect </a>

@@ -4,14 +4,25 @@
 
 	import { page } from '$app/stores';
 
+	let showPDF: string | null = null; // store the selected PDF path
+
 	function removeExtension(filename: string) {
 		var lastDotPosition = filename.lastIndexOf('.');
 		if (lastDotPosition === -1) return filename;
 		else return filename.substring(0, lastDotPosition);
 	}
+
+	function openPDF(pdf: string) {
+		showPDF = `/courses/${$page.params.course}/Magazine/${pdf}`;
+	}
+
+	function closePDF() {
+		showPDF = null;
+	}
 </script>
 
 <div class="flex flex-col gap-12">
+	<!-- Department Name + HOD -->
 	<section class="px-2">
 		<h3 class="text-center text-4xl font-bold max-w-7xl mx-auto mb-4">{deptData.name}</h3>
 		<div class="card lg:card-side shadow-xl bg-accent max-w-7xl mx-auto pt-2 lg:p-5 items-center justify-center">
@@ -24,15 +35,15 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Vision and Mission -->
 	<section class="flex justify-around items-center flex-col gap-6 px-2">
 		<div class="grid lg:grid-cols-2 gap-x-8 gap-y-2 max-w-7xl">
 			<h2 class="text-center text-4xl font-bold max-w-7xl mx-auto lg:col-span-2 mb-4">Vision and Mission</h2>
 			<div class="card shadow-xl text-white bg-secondary">
 				<div class="card-body">
 					<h2 class="card-title mx-auto text-4xl font-bold">Vision</h2>
-					<p class="text-lg text-justify">
-						{deptData.vision}
-					</p>
+					<p class="text-lg text-justify">{deptData.vision}</p>
 				</div>
 			</div>
 			<div class="card shadow-xl text-white bg-secondary">
@@ -57,6 +68,8 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Teaching Faculty -->
 	<section class="flex flex-col gap-6">
 		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Teaching Faculty</h4>
 		<div class="flex flex-wrap gap-5 mx-auto justify-center mb-16">
@@ -65,16 +78,14 @@
 					<figure><img src="/staff/{name}.webp" alt="{name} picture" class="aspect-square" /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
-						{#if ['M.Tech', 'M.E', 'M.Tech Construction Management', 'B.E IT', 'M.E IT', 'M.Tech Machine Design', 'M.E Manufacturing System', 'M.E CAD/CAM (Pursuing)'].includes(deptData.teachingFacultyQualifications[index])}
-							<p>{deptData.teachingFacultyQualifications[index]}</p>
-						{:else}
-							<p>{deptData.teachingFacultyQualifications[index]} Engineering</p>
-						{/if}
+						<p>{deptData.teachingFacultyQualifications[index]}</p>
 					</div>
 				</div>
 			{/each}
 		</div>
 	</section>
+
+	<!-- Non-Teaching Faculty -->
 	<section class="flex flex-col gap-6">
 		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Non-Teaching Faculty</h4>
 		<div class="flex flex-wrap gap-5 mx-auto justify-center items-end">
@@ -88,21 +99,90 @@
 			{/each}
 		</div>
 	</section>
+
+	<!-- Dynamic Sections (excluding Toppers & Magazine) -->
 	{#each Object.keys(data.items) as directory, i}
-		<section class="flex flex-col gap-6">
-			<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">{directory}</h4>
-			<div class="flex flex-wrap gap-5 mx-auto justify-center items-end">
-				{#each data.items[directory] as item}
-					<div class="card card-compact w-96 shadow-xl h-fit {i % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
-						<figure>
-							<img src="/courses/{$page.params.course}/{directory}/{item}" alt={`${item} picture`} />
-						</figure>
-						<div class="card-body">
-							<h2 class="card-title text-base">{removeExtension(item)}</h2>
+		{#if directory !== "Toppers" && directory !== "Magazine"}
+			<section class="flex flex-col gap-6">
+				<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">{directory}</h4>
+				<div class="flex flex-wrap gap-5 mx-auto justify-center items-start">
+					{#each data.items[directory] as item}
+						<div class="card card-compact w-96 shadow-xl h-fit {i % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
+							<figure>
+								<img src={`/courses/${$page.params.course}/${directory}/${item}`} alt={`${item} picture`} />
+							</figure>
+							<div class="card-body">
+								<h2 class="card-title text-base">{removeExtension(item)}</h2>
+							</div>
 						</div>
-					</div>
-				{/each}
-			</div>
-		</section>
+					{/each}
+				</div>
+			</section>
+		{/if}
 	{/each}
+
+	<!-- Combined Section: Toppers + Magazine -->
+	<section class="max-w-7xl mx-auto px-2">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+			
+			<!-- Toppers -->
+			<div>
+				<h4 class="text-center text-4xl font-bold mb-4">Toppers</h4>
+				<div class="flex justify-center">
+					{#if data.items['Toppers']}
+						{#each data.items['Toppers'] as topper, idx}
+							<div class="card card-compact w-80 shadow-xl h-fit mx-auto 
+								{idx % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
+								<figure class="flex justify-center">
+									<img 
+										src={`/courses/${$page.params.course}/Toppers/${topper}`} 
+										alt={`${topper} picture`} 
+										class="object-contain max-h-[500px]"
+									/>
+								</figure>
+								<div class="card-body">
+									<h2 class="card-title text-base text-center">{removeExtension(topper)}</h2>
+								</div>
+							</div>
+						{/each}
+					{/if}
+				</div>
+			</div>
+
+			<!-- Magazine -->
+			<div>
+				<h4 class="text-center text-4xl font-bold mb-4">Magazine</h4>
+				<div class="flex justify-center">
+					{#if data.items['Magazine'] && data.items['Magazine'].length > 0}
+						{#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdf}
+							<div class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto cursor-pointer" on:click={() => openPDF(pdf)}>
+								<figure class="flex justify-center">
+									<img                                   
+										src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`} 
+										alt="Magazine Cover" 
+										class="object-contain max-h-[500px]"
+									/>
+								</figure>
+								<div class="card-body">
+									<h2 class="card-title text-base text-center">{removeExtension(pdf)}</h2>
+									<p class="text-sm text-white text-center">Click to view PDF</p>
+								</div>
+							</div>
+						{/each}
+					{/if}
+				</div>
+			</div>
+
+		</div>
+	</section>
 </div>
+
+<!-- PDF Viewer Modal -->
+{#if showPDF}
+	<div class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+		<div class="relative bg-white w-11/12 h-5/6 rounded-lg shadow-xl flex flex-col">
+			<button class="absolute top-2 right-2 bg-red-500 text-white rounded-full px-3 py-1 text-lg font-bold" on:click={closePDF}>×</button>
+			<iframe src={showPDF} class="w-full h-full rounded-lg"></iframe>
+		</div>
+	</div>
+{/if}
