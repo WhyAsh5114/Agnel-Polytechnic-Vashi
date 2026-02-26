@@ -171,6 +171,7 @@
     <li><a href="/admissions">ADMISSIONS</a></li>
     <li><a href="/syllabus">SYLLABUS</a></li>
     <li><a href="/contact_us">CONTACT US</a></li>
+	<li><a href="/privacy">PRIVACY POLICY</a></li>
   </ul>
 </div>
 
