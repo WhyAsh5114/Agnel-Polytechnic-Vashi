@@ -1,36 +1,123 @@
-<div class="flex flex-col align-center justify-center p-10 gap-20">
-	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
-		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Privacy Policy</h1>
-		<p class="text-lg">
-			Agnel Cafeteria Mobile Application
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Agnel Cafeteria</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-1. Applicability and Scope
-This Privacy Policy describes how the Agnel Cafeteria Mobile Application, operated by Prof. Pranavkumar Bhadane, AN Department, Agnel Polytechnic Vashi (“we,” “our,” or “us”), collects, uses, processes, stores, and protects user information. The Agnel Cafeteria application has been developed to facilitate digital food ordering, payment processing, and order management for students, faculty members, and staff of Agnel Polytechnic Vashi. This policy applies to all users who access, register, or use the mobile application in any manner. By downloading, registering, or using the application, you acknowledge that you have read and understood this Privacy Policy and consent to the collection and processing of your information as described herein. If you do not agree with the terms of this policy, you are advised not to use the application. This policy governs only the information collected through the Agnel Cafeteria mobile application and does not apply to unrelated institutional systems or external platforms. We reserve the right to interpret and implement this policy in accordance with applicable laws and institutional guidelines.
-2. Information We Collect
-In order to provide efficient and secure services, the Agnel Cafeteria application collects certain personal and technical information from users. This includes personal details such as full name, mobile number, email address, student ID or roll number, residential address, and profile photograph, which are necessary for identification and account management purposes. When users make payments, transaction-related information such as payment status, order amount, and transaction identifiers are collected. However, sensitive payment credentials such as full debit or credit card numbers and UPI PINs are not stored on our servers, as payments are securely processed through Razorpay Payment Gateway. Additionally, the application may collect device-related information including device type, operating system, IP address, unique device identifiers, and app version to ensure compatibility and system security. Location information may also be collected to support order management and service functionality within the campus environment. The application may request access to camera, storage, location, and notification permissions strictly for operational purposes such as uploading profile photos, handling app data, enabling service features, and sending order updates.
-3. How We Use Your Information
-The information collected through the Agnel Cafeteria application is used solely for legitimate institutional and operational purposes. Personal information is used to create and manage user accounts, verify identity, authenticate logins, and ensure secure access to services. Transaction-related data is used to process food orders, confirm payments, generate receipts, and maintain financial records required for institutional accounting and audit compliance. Location data may be utilized to improve service efficiency and ensure proper order handling within designated areas. Device information is used to enhance application performance, troubleshoot technical issues, and prevent misuse or fraudulent activities. Notifications are sent to users regarding order confirmations, order status updates, payment confirmations, and institutional announcements. In addition, limited data may be used to display advertisements within the application. We may also analyze aggregated data to improve service quality, enhance user experience, and optimize operational efficiency. Under no circumstances is user data sold or used for unrelated commercial exploitation.
-4. Data Sharing and Disclosure
-Agnel Cafeteria does not sell, rent, or trade user personal information to third parties. However, limited information may be shared with authorized institutional departments strictly for operational purposes. Specifically, transaction and user details may be shared with the Accounts Department of Agnel Polytechnic Vashi for accounting, reconciliation, auditing, and financial record maintenance. Payment-related information is securely transmitted to Razorpay for processing transactions, and such processing is governed by Razorpay’s own privacy and security standards. The application may also display advertisements through third-party advertising services, which may collect limited device-related data using cookies or similar technologies. We do not control the data handling practices of these third-party advertising services and encourage users to review their respective privacy policies. Information may also be disclosed if required by law, regulatory authorities, or institutional compliance obligations. Any disclosure will be made in good faith and in accordance with applicable legal requirements.
-5. Data Retention
-User information is retained for as long as necessary to fulfil operational, accounting, and legal obligations. Transaction records are maintained to ensure proper financial auditing and compliance with institutional policies. Even if a user stops using the application or requests account deletion, certain financial and transaction records may be retained for audit, fraud prevention, and regulatory compliance purposes. Personal account data may be deleted upon verified request, subject to institutional record retention requirements. Backup copies of data may be maintained in secure storage systems for disaster recovery and legal safeguarding purposes. We periodically review stored data to ensure that it is not retained longer than necessary for legitimate institutional purposes.
-6. Children’s Privacy
-The Agnel Cafeteria application is intended for use within an academic institution and may be accessed by students who are minors under applicable laws. The application collects and processes student data strictly for operational and educational purposes related to campus canteen services. We do not knowingly collect data from children for commercial profiling or unrelated marketing purposes. All information collected from student users is limited to what is necessary for identification, payment processing, and service facilitation. If a parent or legal guardian believes that personal data has been collected inappropriately or without authorization, they may contact us using the contact details provided below. Upon verification, appropriate corrective action, including data deletion where applicable, will be undertaken in accordance with institutional and legal requirements.
-7. Data Security
-We implement reasonable administrative, technical, and physical safeguards to protect user information against unauthorized access, misuse, alteration, or disclosure. Data stored on our servers is protected through secure access controls and monitoring mechanisms. Payment transactions are handled through Razorpay, which complies with industry-standard security protocols. While we strive to protect user information using commercially acceptable means, no electronic storage system or internet transmission method can guarantee absolute security. Users are responsible for maintaining the confidentiality of their login credentials and are advised not to share passwords or account access details with others. Any suspected unauthorized access should be reported immediately.
-8. User Rights
-Users of the Agnel Cafeteria application have the right to request access to their personal data maintained within the system. Users may also request correction of inaccurate or outdated information to ensure data accuracy. Subject to institutional policies and financial record requirements, users may request deletion of their account data. Such requests will be processed after appropriate identity verification. Certain transaction records may be retained despite deletion requests due to audit and compliance obligations. Users may also request clarification regarding how their data is processed and stored. All requests should be submitted through the official contact details provided in this policy.
-9. Third-Party Services and Links
-The Agnel Cafeteria application may contain references or links to third-party services such as Razorpay or advertising partners. These third-party services operate independently and have their own privacy policies governing data handling practices. We are not responsible for the content, privacy practices, or security measures of such external services. Users are encouraged to review the privacy policies of any third-party service before engaging with them. Payment processing through Razorpay is governed by Razorpay’s privacy and security standards.
-10. Policy Updates
-We reserve the right to update, modify, or revise this Privacy Policy at any time to reflect changes in operational practices, legal requirements, or technological advancements. Any updates will be published on the official website or application interface. Continued use of the application after such updates constitutes acceptance of the revised policy. Users are encouraged to review this policy periodically to stay informed about how their information is protected.
-11. Contact Information
-For any privacy-related queries, concerns, or data requests, users may contact:
-Email: agnelcafeteria@gmail.com
-Phone: 022 27771000
-Owner: Prof. Pranavkumar Bhadane
-AN Department
-Agnel Polytechnic Vashi.
+<body class="bg-gray-100">
 
-		</p>
-	</div>		
+  <div class="flex flex-col items-center justify-center p-6 md:p-10">
+    
+    <div class="bg-white shadow-xl rounded-2xl p-6 md:p-10 max-w-5xl w-full border border-gray-200">
+
+      <h1 class="text-3xl md:text-4xl font-bold text-center mb-4">
+        Privacy Policy
+      </h1>
+
+      <p class="text-center text-gray-600 mb-8">
+        Effective Date: 24/02/2026
+      </p>
+
+      <!-- Section 1 -->
+      <h2 class="text-2xl font-semibold mt-6">1. Applicability and Scope</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        This Privacy Policy describes how the Agnel Cafeteria Mobile Application, operated by 
+        Prof. Pranavkumar Bhadane, AN Department, Agnel Polytechnic Vashi, collects, uses, processes, 
+        stores, and protects user information. The application is designed to facilitate digital food ordering, 
+        payment processing, and order management for students, faculty members, and staff. By using the application, 
+        you agree to the terms outlined in this policy.
+      </p>
+
+      <!-- Section 2 -->
+      <h2 class="text-2xl font-semibold mt-8">2. Information We Collect</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        We collect personal information such as full name, mobile number, email address, student ID or roll number, 
+        residential address, and profile photograph for account creation and identification. Payment-related 
+        information including transaction status and order amount is collected for financial processing. 
+        Sensitive payment credentials such as full card numbers or UPI PINs are not stored on our servers 
+        and are securely processed via Razorpay Payment Gateway. Device information such as IP address, 
+        operating system, device identifiers, and location data may also be collected to ensure app performance 
+        and service efficiency.
+      </p>
+
+      <!-- Section 3 -->
+      <h2 class="text-2xl font-semibold mt-8">3. How We Use Your Information</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        The collected information is used to manage user accounts, process orders, confirm payments, 
+        send notifications, maintain accounting records, improve app functionality, and ensure security. 
+        Limited information may also be used to display advertisements within the application. 
+        We do not sell personal data under any circumstances.
+      </p>
+
+      <!-- Section 4 -->
+      <h2 class="text-2xl font-semibold mt-8">4. Data Sharing and Disclosure</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        We do not sell or rent personal data. Limited information may be shared with the Accounts Department 
+        for institutional accounting and audit purposes. Payment data is processed by Razorpay and is subject 
+        to their privacy policies. Advertising services may collect limited device-related information through 
+        cookies or similar technologies. We are not responsible for third-party privacy practices.
+      </p>
+
+      <!-- Section 5 -->
+      <h2 class="text-2xl font-semibold mt-8">5. Data Retention</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        User information is retained as long as required for operational, accounting, and legal compliance purposes. 
+        Even if a user deletes their account, certain transaction records may be retained for audit and compliance reasons.
+      </p>
+
+      <!-- Section 6 -->
+      <h2 class="text-2xl font-semibold mt-8">6. Children’s Privacy</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        The application is intended for use within an academic institution and may be accessed by students who are minors. 
+        Data is collected solely for operational and educational purposes related to canteen services. 
+        Parents or guardians may contact us if they believe personal data has been collected inappropriately.
+      </p>
+
+      <!-- Section 7 -->
+      <h2 class="text-2xl font-semibold mt-8">7. Data Security</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        We implement appropriate technical and administrative safeguards to protect user data. 
+        Payment processing is handled by Razorpay using secure industry standards. 
+        However, no digital system guarantees absolute security.
+      </p>
+
+      <!-- Section 8 -->
+      <h2 class="text-2xl font-semibold mt-8">8. User Rights</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        Users may request access, correction, or deletion of their personal data, subject to institutional 
+        and legal record retention requirements. Requests can be submitted via the contact details below.
+      </p>
+
+      <!-- Section 9 -->
+      <h2 class="text-2xl font-semibold mt-8">9. Third-Party Services</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        The application may contain links to third-party services such as Razorpay or advertising platforms. 
+        These services operate independently and have their own privacy policies. 
+        Users are encouraged to review their policies separately.
+      </p>
+
+      <!-- Section 10 -->
+      <h2 class="text-2xl font-semibold mt-8">10. Policy Updates</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        We reserve the right to update this Privacy Policy at any time. 
+        Changes will be posted on this page, and continued use of the application constitutes acceptance of the revised policy.
+      </p>
+
+      <!-- Section 11 -->
+      <h2 class="text-2xl font-semibold mt-8">11. Contact Information</h2>
+      <p class="mt-3 text-gray-700 leading-relaxed">
+        For privacy-related queries:<br><br>
+        Email: agnelcafeteria@gmail.com<br>
+        Phone: 022 27771000<br>
+        Owner: Prof. Pranavkumar Bhadane<br>
+        AN Department, Agnel Polytechnic Vashi
+      </p>
+
+    </div>
+  </div>
+
+</body>
+</html>
