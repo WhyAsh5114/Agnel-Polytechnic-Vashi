@@ -1,44 +1,93 @@
-<div class="flex flex-col gap-10 items-center justify-center">
-<li>
-PRIVACY POLICY
-Campus Cafeteria Mobile Application
+<div class="flex flex-col gap-6 items-center justify-center p-6">
 
-1. Applicability and Scope
-This Privacy Policy describes how the Campus Cafeteria Mobile Application, operated by Prof. Pranavkumar Bhadane, AN Department, Agnel Polytechnic Vashi (“we,” “our,” or “us”), collects, uses, processes, stores, and protects user information. The Campus Cafeteria application has been developed to facilitate digital food ordering, payment processing, and order management for students, faculty members, and staff of Agnel Polytechnic Vashi. This policy applies to all users who access, register, or use the mobile application in any manner. By downloading, registering, or using the application, you acknowledge that you have read and understood this Privacy Policy and consent to the collection and processing of your information as described herein. If you do not agree with the terms of this policy, you are advised not to use the application. This policy governs only the information collected through the Campus Cafeteria mobile application and does not apply to unrelated institutional systems or external platforms. We reserve the right to interpret and implement this policy in accordance with applicable laws and institutional guidelines.
+<div class="max-w-4xl text-justify">
 
-2. Information We Collect
-In order to provide efficient and secure services, the Campus Cafeteria application collects certain personal and technical information from users. This includes personal details such as full name, mobile number, email address, student ID or roll number, residential address, and profile photograph, which are necessary for identification and account management purposes. When users make payments, transaction-related information such as payment status, order amount, and transaction identifiers are collected. However, sensitive payment credentials such as full debit or credit card numbers and UPI PINs are not stored on our servers, as payments are securely processed through Razorpay Payment Gateway. Additionally, the application may collect device-related information including device type, operating system, IP address, unique device identifiers, and app version to ensure compatibility and system security. Location information may also be collected to support order management and service functionality within the campus environment. The application may request access to camera, storage, location, and notification permissions strictly for operational purposes such as uploading profile photos, handling app data, enabling service features, and sending order updates.
+<h1 class="text-3xl font-bold text-center mb-6">Privacy Policy</h1>
+<h2 class="text-xl font-semibold text-center mb-8">Campus Cafeteria Mobile Application</h2>
 
-3. How We Use Your Information
-The information collected through the Campus Cafeteria application is used solely for legitimate institutional and operational purposes. Personal information is used to create and manage user accounts, verify identity, authenticate logins, and ensure secure access to services. Transaction-related data is used to process food orders, confirm payments, generate receipts, and maintain financial records required for institutional accounting and audit compliance. Location data may be utilized to improve service efficiency and ensure proper order handling within designated areas. Device information is used to enhance application performance, troubleshoot technical issues, and prevent misuse or fraudulent activities. Notifications are sent to users regarding order confirmations, order status updates, payment confirmations, and institutional announcements. In addition, limited data may be used to display advertisements within the application. We may also analyze aggregated data to improve service quality, enhance user experience, and optimize operational efficiency. Under no circumstances is user data sold or used for unrelated commercial exploitation.
+<h3 class="font-semibold mt-6 mb-2">1. Applicability and Scope</h3>
+<p>
+This Privacy Policy describes how the Campus Cafeteria Mobile Application, operated by Prof. Pranavkumar Bhadane, AN Department, Agnel Polytechnic Vashi (“we,” “our,” or “us”), collects, uses, processes, stores, and protects user information. The Campus Cafeteria application has been developed to facilitate digital food ordering, payment processing, and order management for students, faculty members, and staff of Agnel Polytechnic Vashi. This policy applies to all users who access, register, or use the mobile application in any manner.
+</p>
 
-4. Data Sharing and Disclosure
-Campus Cafeteria does not sell, rent, or trade user personal information to third parties. However, limited information may be shared with authorized institutional departments strictly for operational purposes. Specifically, transaction and user details may be shared with the Accounts Department of Agnel Polytechnic Vashi for accounting, reconciliation, auditing, and financial record maintenance. Payment-related information is securely transmitted to Razorpay for processing transactions, and such processing is governed by Razorpay’s own privacy and security standards. The application may also display advertisements through third-party advertising services, which may collect limited device-related data using cookies or similar technologies. We do not control the data handling practices of these third-party advertising services and encourage users to review their respective privacy policies. Information may also be disclosed if required by law, regulatory authorities, or institutional compliance obligations. Any disclosure will be made in good faith and in accordance with applicable legal requirements.
+<p>
+By downloading, registering, or using the application, you acknowledge that you have read and understood this Privacy Policy and consent to the collection and processing of your information as described herein. If you do not agree with the terms of this policy, you are advised not to use the application.
+</p>
 
-5. Data Retention
-User information is retained for as long as necessary to fulfil operational, accounting, and legal obligations. Transaction records are maintained to ensure proper financial auditing and compliance with institutional policies. Even if a user stops using the application or requests account deletion, certain financial and transaction records may be retained for audit, fraud prevention, and regulatory compliance purposes. Personal account data may be deleted upon verified request, subject to institutional record retention requirements. Backup copies of data may be maintained in secure storage systems for disaster recovery and legal safeguarding purposes. We periodically review stored data to ensure that it is not retained longer than necessary for legitimate institutional purposes.
+<h3 class="font-semibold mt-6 mb-2">2. Information We Collect</h3>
+<p>
+To provide efficient and secure services, the Campus Cafeteria application collects certain personal and technical information from users. This includes personal details such as full name, mobile number, email address, student ID or roll number, residential address, and profile photograph for identification and account management purposes.
+</p>
 
-6. Children’s Privacy
-The Campus Cafeteria application is intended for use within an academic institution and may be accessed by students who are minors under applicable laws. The application collects and processes student data strictly for operational and educational purposes related to campus canteen services. We do not knowingly collect data from children for commercial profiling or unrelated marketing purposes. All information collected from student users is limited to what is necessary for identification, payment processing, and service facilitation. If a parent or legal guardian believes that personal data has been collected inappropriately or without authorization, they may contact us using the contact details provided below. Upon verification, appropriate corrective action, including data deletion where applicable, will be undertaken in accordance with institutional and legal requirements.
+<p>
+When users make payments, transaction-related information such as payment status, order amount, and transaction identifiers are collected. Sensitive payment credentials such as debit card numbers, credit card numbers, or UPI PINs are not stored on our servers. Payments are securely processed through the Razorpay payment gateway.
+</p>
 
-7. Data Security
-We implement reasonable administrative, technical, and physical safeguards to protect user information against unauthorized access, misuse, alteration, or disclosure. Data stored on our servers is protected through secure access controls and monitoring mechanisms. Payment transactions are handled through Razorpay, which complies with industry-standard security protocols. While we strive to protect user information using commercially acceptable means, no electronic storage system or internet transmission method can guarantee absolute security. Users are responsible for maintaining the confidentiality of their login credentials and are advised not to share passwords or account access details with others. Any suspected unauthorized access should be reported immediately.
+<p>
+The application may also collect device-related information including device type, operating system, IP address, device identifiers, and app version to ensure compatibility and system security. Permissions such as camera, storage, location, and notifications may be requested strictly for operational purposes.
+</p>
 
-8. User Rights
-Users of the Campus Cafeteria application have the right to request access to their personal data maintained within the system. Users may also request correction of inaccurate or outdated information to ensure data accuracy. Subject to institutional policies and financial record requirements, users may request deletion of their account data. Such requests will be processed after appropriate identity verification. Certain transaction records may be retained despite deletion requests due to audit and compliance obligations. Users may also request clarification regarding how their data is processed and stored. All requests should be submitted through the official contact details provided in this policy.
+<h3 class="font-semibold mt-6 mb-2">3. How We Use Your Information</h3>
+<p>
+Information collected through the Campus Cafeteria application is used only for legitimate operational purposes. Personal information is used to create and manage user accounts, verify identity, authenticate logins, and ensure secure access to services.
+</p>
 
-9. Third-Party Services and Links
-The Campus Cafeteria application may contain references or links to third-party services such as Razorpay or advertising partners. These third-party services operate independently and have their own privacy policies governing data handling practices. We are not responsible for the content, privacy practices, or security measures of such external services. Users are encouraged to review the privacy policies of any third-party service before engaging with them. Payment processing through Razorpay is governed by Razorpay’s privacy and security standards.
+<p>
+Transaction-related information is used to process food orders, confirm payments, generate receipts, and maintain necessary financial records. Device information helps improve application performance, troubleshoot technical issues, and prevent misuse or fraudulent activities.
+</p>
 
-10. Policy Updates
-We reserve the right to update, modify, or revise this Privacy Policy at any time to reflect changes in operational practices, legal requirements, or technological advancements. Any updates will be published on the official website or application interface. Continued use of the application after such updates constitutes acceptance of the revised policy. Users are encouraged to review this policy periodically to stay informed about how their information is protected.
+<h3 class="font-semibold mt-6 mb-2">4. Data Sharing and Disclosure</h3>
+<p>
+Campus Cafeteria does not sell, rent, or trade user personal information to third parties. However, limited information may be shared with authorized departments strictly for operational purposes such as accounting, reconciliation, and auditing.
+</p>
 
-11. Contact Information
-For any privacy-related queries, concerns, or data requests, users may contact:
+<p>
+Payment-related information is securely transmitted to Razorpay for processing transactions, which follows its own privacy and security standards.
+</p>
 
-Email: pranav0423an@gmail.com   
-Phone: 022 27771000  
-Prof. Pranavkumar Bhadane  
-AN Department
-</li>
+<h3 class="font-semibold mt-6 mb-2">5. Data Retention</h3>
+<p>
+User information is retained only for as long as necessary to fulfil operational, accounting, and legal obligations. Transaction records may be maintained for auditing, fraud prevention, and compliance purposes.
+</p>
+
+<h3 class="font-semibold mt-6 mb-2">6. Children’s Privacy</h3>
+<p>
+The Campus Cafeteria application may be used by students within a campus environment, including minors. Data collected from such users is strictly limited to what is necessary for identification, payment processing, and service facilitation.
+</p>
+
+<h3 class="font-semibold mt-6 mb-2">7. Data Security</h3>
+<p>
+We implement administrative, technical, and physical safeguards to protect user information against unauthorized access, misuse, alteration, or disclosure. Payment transactions are handled through Razorpay, which complies with industry-standard security protocols.
+</p>
+
+<h3 class="font-semibold mt-6 mb-2">8. User Rights</h3>
+<p>
+Users may request access to their personal data stored within the application. Users may also request correction of inaccurate information or deletion of their account data, subject to verification and compliance requirements.
+</p>
+
+<h3 class="font-semibold mt-6 mb-2">9. Third-Party Services</h3>
+<p>
+The Campus Cafeteria application may use third-party services such as Razorpay for payment processing. These services operate independently and follow their own privacy policies.
+</p>
+
+<h3 class="font-semibold mt-6 mb-2">10. Policy Updates</h3>
+<p>
+We may update this Privacy Policy from time to time to reflect changes in operational practices, legal requirements, or technological advancements. Updated policies will be published within the application or website.
+</p>
+
+<h3 class="font-semibold mt-6 mb-2">11. Contact Information</h3>
+<p>
+For privacy-related queries or concerns, please contact:
+</p>
+
+<p class="mt-2">
+Email: agnelcafeteria@gmail.com <br>
+Phone: 022 27771000 <br><br>
+
+Owner: Prof. Pranavkumar Bhadane <br>
+AN Department <br>
+Agnel Polytechnic Vashi
+</p>
+
+</div>
 </div>
