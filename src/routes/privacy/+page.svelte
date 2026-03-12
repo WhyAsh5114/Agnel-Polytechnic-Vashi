@@ -83,8 +83,7 @@ For privacy-related queries or concerns, please contact:
 <p class="mt-2">
 Email: bhadane.4@gmail.com <br>
 Phone: 022 27771000 <br><br>
-
-Owner: Prof. Pranavkumar Bhadane <br>
+Prof. Pranavkumar Bhadane <br>
 AN Department <br>
 </p>
 
