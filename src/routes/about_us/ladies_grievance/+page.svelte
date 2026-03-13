@@ -45,7 +45,7 @@ we have constituted “Grievance Redressal Committee” to ensure transparency i
 with paramount objective of preventing unfair practices and to provide a mechanism to address grievances of students, parents and others.
 </p>
 
-<a href="static/2025-26_grivence_redressal_committee_staff.pdf"
+<a href="https://drive.google.com/file/d/1L3xK1KeuoE5k_xyx04TzSABbhTJd_hMl/view?usp=drive_link"
    class="btn btn-ghost flex-nowrap gap-2"
    target="_blank">
    Download Committee PDF
