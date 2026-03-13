@@ -37,5 +37,8 @@
 		in the committee and report be prepared which should be sent to the management for appropriate action.
 	</p>
 <h2 class="lg:col-span-2 divider-heading">Grievance Redressal Committee (GRC)</h2>
+<p>
+		n Compliance with the AICTE Notification dated 25th May 2012, published in Gazette of India, we have constituted “Grievance Redressal Committee” to ensure transparency in admission, with paramount objective of preventing unfair practices and to provide a mechanism to address grievances of students, parents and others.
+	</p>
 <a href="static/2025-26 grivence redressal committee_staff.pdf" class="btn btn-ghost flex-nowrap gap-2">
 </div>
