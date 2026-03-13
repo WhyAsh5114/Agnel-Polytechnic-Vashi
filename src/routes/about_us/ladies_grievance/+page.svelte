@@ -36,6 +36,7 @@
 		The Member Secretary is hereby informed that on receipt of complaint from the staff, the same shall be discussed and necessary decision be taken
 		in the committee and report be prepared which should be sent to the management for appropriate action.
 	</p>
+</div>
 <h2 class="lg:col-span-2 divider-heading">Grievance Redressal Committee (GRC)</h2>
 
 <p>
