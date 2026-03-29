@@ -74,7 +74,15 @@
    
 
 </script>
-
+<div class="px-2 mb-4">
+	<a 
+		href="https://docs.google.com/document/d/e/2PACX-1vQfyGn8kznqVn7Iau9PKYyKOD_34KUGV6LoTemwRuwfZ7Yfb9_1GfNewhZhAp8chA/pub" 
+		target="_blank" 
+		class="btn btn-primary"
+	>
+		View Mandatory Disclosures
+	</a>
+</div>
 <h3 class="divider-heading pb-12 pt-6 px-2">Staff details</h3>
 <div class="overflow-x-auto w-full">
 	<table class="table w-full">
