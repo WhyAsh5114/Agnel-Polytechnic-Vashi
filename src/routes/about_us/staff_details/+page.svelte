@@ -82,6 +82,20 @@
 	>
 		View Mandatory Disclosures
 	</a>
+<a 
+		href="https://docs.google.com/spreadsheets/d/1HrBepe-NooMPr9gPFJLSvPIpCUhNUMi2/edit?usp=drive_link&ouid=100229754884492988560&rtpof=true&sd=true" 
+		target="_blank" 
+		class="btn btn-primary"
+	>
+		View AREA DETAILS
+	</a>
+<a 
+		href="https://drive.google.com/file/d/1Gs_o5st8Ss1GEVCpDFvBpM2kf0DB89Qq/view?usp=drive_link" 
+		target="_blank" 
+		class="btn btn-primary"
+	>
+		View Fire Certificate
+	</a>
 </div>
 <h3 class="divider-heading pb-12 pt-6 px-2">Staff details</h3>
 <div class="overflow-x-auto w-full">
