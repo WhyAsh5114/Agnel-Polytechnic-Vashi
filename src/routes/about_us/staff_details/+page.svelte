@@ -96,6 +96,14 @@
 	>
 		View Fire Certificate
 	</a>
+
+<a 
+		href="https://drive.google.com/file/d/1do9fsNlHQ6Lis7RGPr9LGmyqSNvOpxFS/view?usp=drive_link" 
+		target="_blank" 
+		class="btn btn-primary"
+	>
+		View Governing Council
+	</a>
 </div>
 <h3 class="divider-heading pb-12 pt-6 px-2">Staff details</h3>
 <div class="overflow-x-auto w-full">
