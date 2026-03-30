@@ -24,7 +24,7 @@
 		<figure class="basis-1/3 shrink-0"><img src="/icc_image.webp" alt="IIC logo" width="800" /></figure>
 		<div class="card-body">
 			<p>
-				Established Institution’s Innovation Council under ‘MHRD’s Innovation Cell (MIC) to systematically foster the culture of Innovation amongst
+				Established on 30/10/2018 Institution’s Innovation Council under ‘MHRD’s Innovation Cell (MIC) to systematically foster the culture of Innovation amongst
 				students.
 				<br />
 				<br />
