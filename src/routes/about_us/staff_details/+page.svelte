@@ -104,6 +104,13 @@
 	>
 		View Governing Council
 	</a>
+<a 
+		href="https://drive.google.com/file/d/1fIQMr-bP4vwIrbQBV84Nv95xsphCszI4/view?usp=drive_link" 
+		target="_blank" 
+		class="btn btn-primary"
+	>
+		View SC ST COMMITTEE
+	</a>
 </div>
 <h3 class="divider-heading pb-12 pt-6 px-2">Staff details</h3>
 <div class="overflow-x-auto w-full">
