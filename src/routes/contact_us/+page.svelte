@@ -115,7 +115,7 @@
 	target="_blank" 
 	class="btn btn-primary mt-4"
 >
-	Students Grievance Form
+	Grievance Form
 </a>	
 </div>
 </div>
