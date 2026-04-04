@@ -2,9 +2,9 @@
 	import Staff from './Staff.svelte';
 	let staff = [
 		['Mrs. Jewel Samantha', 'Chairman'],
-		['Mrs. Roopa Shetty', 'Member'],
+		['Ms. Roopa Shetty', 'Member'],
 		['Ms. Seema Kshirsagar', 'Member'],
-		['Mrs. Malini Pawande', 'Member'],
+		['Ms. Malini Pawnday', 'Member'],
 		['Ms. Amarpreet Kaur', 'Member'],
 		['Mr. Nitin Kulkarni', 'Member'],
 		['Mr. Upendra Rai', 'Member'],
@@ -36,4 +36,18 @@
 		The Member Secretary is hereby informed that on receipt of complaint from the staff, the same shall be discussed and necessary decision be taken
 		in the committee and report be prepared which should be sent to the management for appropriate action.
 	</p>
+
+<h2 class="lg:col-span-2 divider-heading">Grievance Redressal Committee (GRC)</h2>
+
+<p>
+In Compliance with the AICTE Notification dated 25th May 2012, published in Gazette of India, 
+we have constituted “Grievance Redressal Committee” to ensure transparency in admission, 
+with paramount objective of preventing unfair practices and to provide a mechanism to address grievances of students, parents and others.
+</p>
+
+<a href="https://drive.google.com/file/d/1L3xK1KeuoE5k_xyx04TzSABbhTJd_hMl/view?usp=drive_link"
+   class="btn btn-ghost flex-nowrap gap-2"
+   target="_blank">
+   Download Committee PDF
+</a>
 </div>

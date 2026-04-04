@@ -3,10 +3,10 @@
 	let staff = [
 		['Ms. Roopa Shetty', '	Hum', 'Overall Coordinator', '7039021128'],
 		['Mr. Lewis Anthony', 'Civil', 'Member', '9004897775'],
-		['Mrs. Suhasini David Sekhar', 'EXTC', 'Member', '9819321626'],
+		['Mrs. Suhasini David Sekhar', 'TE', 'Member', '9819321626'],
 		['Mr. Nitin Kulkarni', 'ME', 'Member', '9969338603'],
 		['Mr. Satish Eandole', 'AE', '	Member', '9834833416'],
-		['Ms. Roopali Hedge', '', 'Counsellor', '9619325880']
+		['Ms. Roopali Hegde', '', 'Counsellor', '9619325880']
 	];
 </script>
 

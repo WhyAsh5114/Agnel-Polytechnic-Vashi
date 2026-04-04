@@ -110,5 +110,12 @@
 			<textarea class="textarea lg:col-span-2 input-bordered" placeholder="Enter message" bind:value={userMessage} required name="message" />
 			<button class="btn btn-secondary lg:col-span-2 text-white" disabled={callingEndpoint}> Send Message </button>
 		</form>
-	</div>
+<a 
+	href="https://forms.gle/Xa9zbQntLBugKZew6" 
+	target="_blank" 
+	class="btn btn-primary mt-4"
+>
+	Grievance Form
+</a>	
+</div>
 </div>
