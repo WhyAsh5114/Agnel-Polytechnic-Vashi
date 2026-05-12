@@ -5,7 +5,7 @@
 
 <thead>
 	<tr>
-		<th colspan="4">{tableHeading}</th>
+		<th colspan="6">{tableHeading}</th>
 	</tr>
 </thead>
 <tbody>
@@ -21,7 +21,7 @@
 					<div class="font-bold">{member[0]}</div>
 				</div>
 			</td>
-			<td>
+			<td> 
 				{member[1]}
 				<br />
 				<div class="flex flex-wrap gap-1">
@@ -32,6 +32,8 @@
 			</td>
 			<td class="capitalize">{member[3]}</td>
 			<td>{member[4]}</td>
+			<td>{member[5]}</td>
+			<td>{member[6]}</td>
 		</tr>
 	{/each}
 </tbody>

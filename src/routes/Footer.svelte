@@ -21,7 +21,7 @@
 		<span class="footer-title opacity-100 underline underline-offset-4">Featured Links</span>
 		<ul class="grid grid-cols-2 gap-1">
 			<li><a class="link link-hover" href="/">&gt; Home</a></li>
-			<li><a class="link link-hover" href="/admissions">&gt; Admissions</a></li>
+			<li><a class="link link-hover" href="/admissions">&gt; Admission</a></li>
 			<li><a class="link link-hover" href="/gallery/Facilities">&gt; Gallery</a></li>
 			<li><a class="link link-hover" href="/about_us/vision_and_mission">&gt; Vision & Mission</a></li>
 			<li><a class="link link-hover" href="/contact_us">&gt; Contact us</a></li>

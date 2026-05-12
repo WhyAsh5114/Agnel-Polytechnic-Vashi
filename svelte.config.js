@@ -1,5 +1,5 @@
-import adapter from '@sveltejs/adapter-auto';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import adapter from '@sveltejs/adapter-vercel';
+import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -9,8 +9,7 @@ const config = {
 			handleHttpError: 'warn'
 		}
 	},
-	// TODO: add image preprocessing...
-	preprocess: [vitePreprocess()]
+	preprocess: [preprocess()]
 };
 
 export default config;

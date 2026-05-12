@@ -4,8 +4,17 @@
 		['Ms. Saly Antony', 'Principal'],
 		['Mrs. Raji MP', 'President'],
 		['Ms. Sonali Sherigar', 'Vice President'],
-		['Mr. Umesh Mhapankar', 'Convener'],
+		['Mr. Mohd Janisar', 'Convener'],
 		['Mr. Satish Eandole', 'Member']
+	];
+
+	let students = [
+		['Mr. Anshul Harish Vethekar ', 'AN5I'],
+		['Ms. Ojaswini Oak ', 'AN3K'],
+		['Ms. Anoushka Bhaskarwar', 'TE3k'],
+		['Mr. Shreeyash Babaji Patil', 'TE3k'],
+		['Mr. Sarthak Mahesh Bankarl', 'ME'],
+		['Mr. Atharva Parmeshwar Sawalkar', 'CE']
 	];
 </script>
 
@@ -15,7 +24,7 @@
 		<figure class="basis-1/3 shrink-0"><img src="/icc_image.webp" alt="IIC logo" width="800" /></figure>
 		<div class="card-body">
 			<p>
-				Established Institution’s Innovation Council under ‘MHRD’s Innovation Cell (MIC) to systematically foster the culture of Innovation amongst
+				Established on 30/10/2018 Institution’s Innovation Council under ‘MHRD’s Innovation Cell (MIC) to systematically foster the culture of Innovation amongst
 				students.
 				<br />
 				<br />
@@ -38,5 +47,12 @@
 		</thead>
 
 		<Staff data={staff} />
+		<thead>
+			<tr>
+				<th>Name of the student Co-ordinator</th>
+				<th>Department</th>
+			</tr>
+		</thead>
+		<Staff data={students} />
 	</table>
 </div>

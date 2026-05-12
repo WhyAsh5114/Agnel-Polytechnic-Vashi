@@ -14,7 +14,7 @@ type DeptData = {
 export const data: Record<string, DeptData> = {
 	artificial_intelligence: {
 		name: 'Artificial Intelligence & Machine Learning (AN)',
-		HOD: 'Mrs. Raji MP',
+		HOD: 'Ms. Sonali Sherigar (HOD)',
 		intake: 60,
 		duration: 3,
 		about:
@@ -27,20 +27,21 @@ export const data: Record<string, DeptData> = {
 			'To develop technical skills in-line with current industry trends through effective teaching and industry-institute interaction'
 		],
 		teachingFaculty: [
-			'Mrs. Raji MP',
+			'Ms. Sonali Sherigar',
 			'Mr. Pranavkumar Bhadane',
-			'Mrs. Rashmi Dhake',
 			'Mrs. Ashwini Baviskar',
-			'Mrs. Ashwini Patil',
-			'Mrs. Vidya Ingle',
-			'Mrs. Samina Siddique'
+			'Mrs. Samina Siddique',
+			'Ms. Kirti Karande', 
+			'Ms. Namrata Thakur',
+			'Ms. Monali Chandwadkar',
+			'Ms. Susan Sabu Manimala'
 		],
-		teachingFacultyQualifications: ['M.E Electrical', 'M.E Computer', 'M.E Computer', 'B.E Computer', 'M.E Computer', 'M.E IT', 'B.E IT'],
+		teachingFacultyQualifications: ['M.Tech', 'M.E Computer', 'B.E IT', 'M.Tech Computer (Pursuing)', 'M.E Computer (Pursuing)', 'M.E Computer (Pursuing)', 'B.E IT', 'MA in English Literature'],
 		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq']
 	},
 	electronics_and_computer_engineering: {
 		name: 'Electronics & Computer Engineering (TE)',
-		HOD: 'Mrs. Raji MP',
+		HOD: 'Mrs. Raji MP (HOD)',
 		intake: 60,
 		duration: 3,
 		about:
@@ -58,16 +59,19 @@ export const data: Record<string, DeptData> = {
 			'Mrs. Suhasini David Sekhar',
 			'Mr. Umesh Mhapankar',
 			'Mrs. Archana Wasule',
-			'Ms. Sonali Sherigar',
 			'Ms. Varsha Meshram',
-			'Mr. Amol Suryavanshi'
+			'Mr. Amol Suryavanshi',
+			'Mr. Mohd Janisar',
+			'Ms. Malini Pawnday',
+			'Ms. R.P. Snehalatha'
+
 		],
-		teachingFacultyQualifications: ['M.E', 'M.E', 'M.Tech', 'M.E', 'M.E', 'M.Tech', 'M.Tech', 'M.E'],
+		teachingFacultyQualifications: ['M.E Electronics', 'M.E', 'M.Tech', 'M.E', 'M.E', 'M.Tech', 'M.Tech', 'M.Tech Computer Engineering (Pursuing)','M. Sc. Physics', 'M. Sc. Maths'],
 		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge']
 	},
 	automobile_engineering: {
 		name: 'Automobile Engineering (AE)',
-		HOD: 'Mr. Nitin Kulkarni',
+		HOD: 'Mr. Nitin Kulkarni (HOD)',
 		intake: 60,
 		duration: 3,
 		about:
@@ -79,13 +83,22 @@ export const data: Record<string, DeptData> = {
 			'Establish and enhance interaction with industries for training, internship and entrepreneurial activities.',
 			'Educate the students for effective communication, teamwork and leadership for their overall development.'
 		],
-		teachingFaculty: ['Mr. Nitin Kulkarni', 'Mr. Dinesh Patil', 'Ms. Cige Louis', 'Mr. Satish Eandole', 'Mr. Mahesh Vhanmane'],
-		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile'],
+		teachingFaculty: [
+			'Mr. Nitin Kulkarni', 
+			'Mr. Dinesh Patil', 
+			'Ms. Cige Louis', 
+			'Mr. Satish Eandole',
+			'Mr. Mahesh Vhanmane',
+			'Ms. Deepti Kalantri',
+			'Ms. Ruchira Shinde',
+		    'Ms. Shalvi Bahadur'],
+			 
+		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','M. Sc. Physics','B.E Civil','M. Sc. Maths M. Phil. ' ],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod']
 	},
 	civil_engineering: {
 		name: 'Civil Engineering (CE)',
-		HOD: 'Mr. Manvendra Sinha',
+		HOD: 'Mr. Manvendra Sinha (HOD)',
 		intake: 60,
 		duration: 3,
 		about:
@@ -106,7 +119,8 @@ export const data: Record<string, DeptData> = {
 			'Ms. Papiya Bala',
 			'Mr. Vishal Dalvi',
 			'Mr. Lewis Anthony',
-			'Ms. Ruchira Shinde'
+			'Ms. Roopa Shetty',
+			 'Mr. Upendra Rai'
 		],
 		teachingFacultyQualifications: [
 			'M.Tech Construction Management',
@@ -117,13 +131,14 @@ export const data: Record<string, DeptData> = {
 			'M.E Environmental',
 			'B.E Civil',
 			'M.Tech Strucutual',
-			'B.E Civil'
+			'M. A. English',
+			'M. Sc. Chemistry'
 		],
 		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi']
 	},
 	mechanical_engineering: {
 		name: 'Mechanical Engineering (ME)',
-		HOD: 'Mrs. Beenu Johnkutty',
+		HOD: 'Mrs. Beenu Johnkutty (HOD)',
 		intake: 120,
 		duration: 3,
 		about:
@@ -147,7 +162,9 @@ export const data: Record<string, DeptData> = {
 			'Mr. Chetan Baviskar',
 			'Mr. Premkumar Joshi',
 			'Mr. Momin Musheer Anwar',
-			'Ms. Suvarchala M.'
+			'Ms. Suvarchala M.',
+			'Mr. Venugopal Kurup',
+			'Ms. Purnima M. Barhate'
 		],
 		teachingFacultyQualifications: [
 			'M.Tech Machine Design',
@@ -158,11 +175,12 @@ export const data: Record<string, DeptData> = {
 			'B.E Mechanical',
 			'M.E CAD/CAM',
 			'M.E Mechanical',
-			'B.E Mechanical',
-			'M.E Manufacturing System',
 			'M.Tech Machine Design',
 			'M.E Manufacturing System',
-			'B.Tech Production'
+			'B.Tech Production ',
+			'M.Tech Production ',
+			'M. Sc. Maths',
+			'M. Sc. Chemistry'
 		],
 		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh']
 	}
