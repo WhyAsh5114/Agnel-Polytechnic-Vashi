@@ -100,6 +100,11 @@
 						<div class="card-body">
 							<h2 class="card-title text-base">{removeExtension(item)}</h2>
 						</div>
+						<div class="card-body">
+							<h2 class="card-title text-base">{removeExtension(item)}</h2>
+							<a href={item} target="https://drive.google.com/file/d/1t7X0fxn1KfYXbAiELFZ5cPxLUQAyzsha/view?usp=sharing" rel="noopener noreferrer">
+							</a>
+						</div>
 					</div>
 				{/each}
 			</div>
