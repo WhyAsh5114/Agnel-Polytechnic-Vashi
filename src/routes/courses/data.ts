@@ -34,12 +34,11 @@ export const data: Record<string, DeptData> = {
 		teachingFaculty: [
 			'Ms. Sonali Sherigar',
 			'Mr. Pranavkumar Bhadane',
-			'Mrs. Ashwini Baviskar',
-			'Mrs. Samina Siddique',
 			'Ms. Kirti Karande', 
 			'Ms. Namrata Thakur',
 			'Ms. Monali Chandwadkar',
-			''
+			'Ms. Namrata Nikam',
+			'Mrs. Neha Salunkhe'			
 		],
 		teachingFacultyQualifications: ['M.Tech', 'M.E Computer', 'B.E IT', 'M.Tech Computer (Pursuing)', 'M.E Computer (Pursuing)', 'M.E Computer (Pursuing)', 'B.E IT', 'MA in English Literature'],
 		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq','Mr. Akash Kamble'], magazine: {
