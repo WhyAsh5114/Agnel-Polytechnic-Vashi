@@ -42,7 +42,7 @@ export const data: Record<string, DeptData> = {
 			''
 		],
 		teachingFacultyQualifications: ['M.Tech', 'M.E Computer', 'B.E IT', 'M.Tech Computer (Pursuing)', 'M.E Computer (Pursuing)', 'M.E Computer (Pursuing)', 'B.E IT', 'MA in English Literature'],
-		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq'], magazine: {
+		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq','Mr. Akash Kamble'], magazine: {
     title: 'Meta Verse Summer 2026',
     link: 'https://drive.google.com/file/d/1JgsDTIFrcIWrQpbSDFDRsn4qq9fTs7GJ/view?usp=sharing'
 }
