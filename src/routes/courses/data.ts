@@ -198,7 +198,7 @@ export const data: Record<string, DeptData> = {
 			'M. Sc. Maths',
 			'M. Sc. Chemistry'
 		],
-		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh'], magazine: {
+		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Mangesh Deshmukh','Pallavi Santosh Chavan'], magazine: {
     title: 'The Mechwiz Summer 2026',
     link: 'https://drive.google.com/file/d/YOUR_MECHANICAL_ID/view'
 }
