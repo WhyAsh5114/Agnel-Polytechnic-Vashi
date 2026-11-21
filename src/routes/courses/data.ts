@@ -68,7 +68,7 @@ export const data: Record<string, DeptData> = {
 			'Mrs. Archana Wasule',
 			'Ms. Varsha Meshram',
 			'Mr. Amol Suryavanshi',
-			'',
+			'Ms. Avantika Aher',
 			'Ms. Malini Pawnday',
 			'Ms. R.P. Snehalatha'
 
