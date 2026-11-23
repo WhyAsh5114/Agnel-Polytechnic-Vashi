@@ -25,8 +25,8 @@ export const newsArray: News[] = [
 		link: "https://drive.google.com/file/d/1nprzL-klAzgwwk6MTplSx9GynN51Vgcs/view?usp=sharing"
 	},
 	{
-		title: "Exam Fees Details",
-		link: ""
+		title: "APV E-Cell",
+		link: "https://apvecell.com/"
 	},
 	
 ];
