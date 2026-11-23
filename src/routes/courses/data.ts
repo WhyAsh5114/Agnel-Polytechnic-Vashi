@@ -149,7 +149,7 @@ export const data: Record<string, DeptData> = {
 		],
 		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi'], magazine: {
    title: 'Magzine Summer 2026',
-    link: 'https://drive.google.com/file/d/1beOHiUhWwtzJ39Tsh1oe06g6_lOZpbTT/view?usp=sharing'
+    link: 'https://drive.google.com/file/d/1f8xPSVH0pyDWtjFRQG1SmFY0v9qOwOCZ/view?usp=sharing'
 }
 	},
 	mechanical_engineering: {
