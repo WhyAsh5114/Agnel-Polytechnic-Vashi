@@ -106,7 +106,7 @@ export const data: Record<string, DeptData> = {
 		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','M. Sc. Physics','B.E Civil','M. Sc. Maths M. Phil. ' ],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod'], magazine: {
     title: 'Magzine Summer 2026',
-    link: ''
+    link: 'https://drive.google.com/file/d/1_X85Cd5sxIPVHT6u4nbFlnrA0cPM3KQK/view?usp=sharing'
 }
 	},
 	civil_engineering: {
